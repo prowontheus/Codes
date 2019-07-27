@@ -1,0 +1,32 @@
+//#include<string.h>
+#include<iostream>
+#include<algorithm>
+ 
+using namespace std;
+
+int main()
+{
+    bool check[10000000] = {false};
+    int prim[10000000] = {0};
+cout << "test"
+;    int tot = 0;
+    for(int i = 2;i <= 10000000;i ++)
+    {
+        if(!check[i]) prim[tot ++] = i;
+        for(int j = 0;j < tot;j ++)
+        {
+            if(i * prim[j] > 10000000) break;
+            check[i * prim[j]] = true;
+            if(i % prim[j] == 0) break;   
+        }
+    }
+     
+    int n;
+    while(cin >> n && n > 0)
+    {
+	int *a = find(prim,prim+10000000,n);
+	cout << a-prim << endl;
+    }
+     
+    return 0;
+}
