@@ -13,7 +13,7 @@ using namespace std;
 int main(int argc,char *argv[])
 {
     MyDB db;
-    bool bRet = db.InitDB(db.m_mysql,"localhost","root","","secu");
+    bool bRet = db.InitDB(db.m_mysql,"localhost","root","123456","secu");
     if(!bRet)
     {
         cout << "InitDB Error:" << mysql_error(db.m_mysql) << endl;
