@@ -24,7 +24,7 @@ class IntSequence {
     }
 
     // ``function call''
-    int operator() () {
+    int operator() (int elem) {
         return value++;
     }
 };
@@ -33,6 +33,7 @@ int main()
 {
     list<int> coll;
 
+	for_each(coll.begin(),coll.end(),IntSequence(2));
     // insert values from 1 to 9
     generate_n (back_inserter(coll),    // start
                 9,                      // number of elements

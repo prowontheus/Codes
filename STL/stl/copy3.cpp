@@ -14,6 +14,7 @@
 #include <deque>
 #include <set>
 #include <algorithm>
+#include "print.hpp"
 using namespace std;
 
 int main()
@@ -24,21 +25,25 @@ int main()
     for (int i=1; i<=9; ++i) {
         coll1.push_back(i);
     }
+	PRINT_ELEMENTS(coll1,"coll1:");
 
     // copy the elements of coll1 into coll2 by appending them
     vector<int> coll2;
     copy (coll1.begin(), coll1.end(),      // source
           back_inserter(coll2));           // destination
+	PRINT_ELEMENTS(coll2,"coll2:");
 
     // copy the elements of coll1 into coll3 by inserting them at the front
     // - reverses the order of the elements
     deque<int> coll3;
     copy (coll1.begin(), coll1.end(),      // source
           front_inserter(coll3));          // destination
+	PRINT_ELEMENTS(coll3,"coll3:");
 
     // copy elements of coll1 into coll4
     // - only inserter that works for associative collections
     set<int> coll4;
     copy (coll1.begin(), coll1.end(),      // source
           inserter(coll4,coll4.begin()));  // destination
+	PRINT_ELEMENTS(coll4,"coll4:");
 }
