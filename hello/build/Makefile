@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/narada/Code/hello
+CMAKE_SOURCE_DIR = /home/narada/Codes/hello
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/narada/Code/hello/build
+CMAKE_BINARY_DIR = /home/narada/Codes/hello/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/narada/Code/hello/build/CMakeFiles /home/narada/Code/hello/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/narada/Codes/hello/build/CMakeFiles /home/narada/Codes/hello/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/narada/Code/hello/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/narada/Codes/hello/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-hello.o: hello.cpp.o
+hello.o: hello.c.o
 
 .PHONY : hello.o
 
 # target to build an object file
-hello.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hello.cpp.o
-.PHONY : hello.cpp.o
+hello.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hello.c.o
+.PHONY : hello.c.o
 
-hello.i: hello.cpp.i
+hello.i: hello.c.i
 
 .PHONY : hello.i
 
 # target to preprocess a source file
-hello.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hello.cpp.i
-.PHONY : hello.cpp.i
+hello.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hello.c.i
+.PHONY : hello.c.i
 
-hello.s: hello.cpp.s
+hello.s: hello.c.s
 
 .PHONY : hello.s
 
 # target to generate assembly for a file
-hello.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hello.cpp.s
-.PHONY : hello.cpp.s
+hello.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hello.c.s
+.PHONY : hello.c.s
 
 # Help Target
 help:

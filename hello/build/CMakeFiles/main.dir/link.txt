@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/main.dir/hello.cpp.o  -o main -rdynamic 
+/usr/bin/cc     CMakeFiles/main.dir/hello.c.o  -o main -rdynamic 
