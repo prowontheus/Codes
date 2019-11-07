@@ -31,7 +31,7 @@ int main(int argc,char *argv[])
         cout << "execError2:" << mysql_error(db.mysql) << endl;
         exit(0);
     }*/
-    bRet = db.execSQL(db.m_mysql,"select * from tdac_dbdevice");
+    bRet = db.execSQL(db.m_mysql,"select * from tdac_pcs");
     if(!bRet)
     {
         cout << "select Error:" << mysql_error(db.m_mysql) << endl;

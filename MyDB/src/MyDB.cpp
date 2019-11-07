@@ -52,8 +52,7 @@ bool MyDB::InitDB(MYSQL *mysql,const char *host,const char* user,const char*pass
 
 bool MyDB::execSQL(MYSQL *mysql,const char *SqlString)
 {
-    int bRet = mysql_query(mysql,SqlString);
-    if(bRet)
+    if(mysql_query(mysql,SqlString))
     {
         cout << "Error:" << mysql_error(mysql) << endl;
         return false;

@@ -1,4 +1,7 @@
-PROJECT(hello)
-    CMAKE_MINIMUM_REQUIRED(VERSION 2.6.0)
-    AUX_SOURCE_DIRECTORY(. DIR_SRCS)
-    ADD_EXECUTABLE(main ${DIR_SRCS})
+cmake_minimum_required(VERSION 3.13)
+project(hello C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(hello
+        hello.c)

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/prowontheus/Codes/MyDB/src/MyDB.cpp
+iostream
+-
+string
+-
+string.h
+/Users/prowontheus/Codes/MyDB/src/string.h
+MyDB.h
+/Users/prowontheus/Codes/MyDB/src/MyDB.h
+cstdlib
+-
+
+/Users/prowontheus/Codes/MyDB/src/MyDB.h
+mysql.h
+-
+iostream
+-
+string
+-
+
+/Users/prowontheus/Codes/MyDB/src/test.cpp
+iostream
+-
+cstdlib
+-
+MyDB.h
+/Users/prowontheus/Codes/MyDB/src/MyDB.h
+
