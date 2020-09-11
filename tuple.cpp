@@ -36,8 +36,9 @@ int main()
     << "GPA: " << gpa << ", "
     << "成绩: " << grade << ", "
     << "姓名: " << name << '\n';
-    std::tuple<std::string, double, double, int> t("123","456", 4.5, 6.7, 8);
-    std::cout << std::get<std::string>(t) << std::endl;
+    std::tuple<std::string,std::string,double, double, int> t("123","456", 4.5, 6.7, 8);
+    std::cout << std::get<0>(t) << std::endl;
     //std::cout << std::get<double>(t) << std::endl;   // 非法, 引发编译期错误
     std::cout << std::get<3>(t) << std::endl;
+	return 0;
 }

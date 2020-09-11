@@ -7,15 +7,17 @@ public:
     ChessBoard();    // 8 x 8 chessboard;
     ChessBoard(int); // n x n chessboard;
     void findSolutions();
+    static int howMany;
 private:
     const bool available;
     const int squares, norm;
     bool *column, *leftDiagonal, *rightDiagonal;
-    int  *positionInRow, howMany;
+    int  *positionInRow;
     void putQueen(int);
     void printBoard(ostream&);
     void initializeBoard();
 };
+int ChessBoard::howMany = 0;
 
 ChessBoard::ChessBoard() : available(true), squares(8), norm(squares-1) {
     initializeBoard();
@@ -35,23 +37,37 @@ void ChessBoard::initializeBoard() {
         column[i] = available;
     for (i = 0; i < squares*2 - 1; i++)
         leftDiagonal[i] = rightDiagonal[i] = available;
-    howMany = 0;
+//    howMany = 0;
 }
 void ChessBoard::printBoard(ostream& out) {
     // . . . .
+    howMany++;
+    for(int i = 0;i < squares;i++)
+    {
+        for(int j = 0;j < squares;j++)
+        {
+            if(j == positionInRow[i])
+                out << "*";
+            else
+                out << "1";
+        }
+        out << "\n";
+    }
+    out << "\n";
 }
-void ChessBoard::putQueen(int row) {
+void ChessBoard::putQueen(int row)
+{
     for (int col = 0; col < squares; col++)
-        if (column[col] == available &&
-            leftDiagonal [row+col] == available &&
-            rightDiagonal[row-col+norm] == available) {
+        if (column[col] == available && leftDiagonal [row+col] == available && rightDiagonal[row-col+norm] == available)
+        {
             positionInRow[row] = col;
             column[col] = !available;
             leftDiagonal[row+col] = !available;
             rightDiagonal[row-col+norm] = !available;
             if (row < squares-1)
                  putQueen(row+1);
-            else printBoard(cout);
+            else
+                printBoard(cout);
             column[col] = available;
             leftDiagonal[row+col] = available;
             rightDiagonal[row-col+norm] = available;
@@ -63,7 +79,7 @@ void ChessBoard::findSolutions() {
 }
 
 int main() {
-    ChessBoard board(4);
+    ChessBoard board(8);
     board.findSolutions();
     return 0;
 }

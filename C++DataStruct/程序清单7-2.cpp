@@ -72,7 +72,7 @@ int main() {
     //   (Gregg,25) Pittsburgh 
     //   (Kay, 40) Austin
     //   (Kay, 40) Austin
-    //   (Kay, 40) Detroit
+    //   (Kay, 40) Detroitr
     (*(mCities.find(Person("Kay",40)))).second = "New York";
     for (mi = mCities.begin(); mi != mCities.end(); mi++)
         cout << (*mi).first << ' ' << (*mi).second << endl;

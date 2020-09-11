@@ -69,7 +69,7 @@ class VertexArrayRec {
 public:
     VertexArrayRec() {
         adjacent = 0;
-    }                     
+    }
 private:
     char *idName;
     int vertexFlow;
@@ -93,14 +93,14 @@ class LocalTree : public BST<NetTreeNode> {
 class Network {
 public:
     Network() : sink(1), source(0), none(-1), numOfVertices(2) {
-       	verticesPtr = new VertexArrayRec*;
+        verticesPtr = new VertexArrayRec*;
     }
     void readCommittees(char *committees);
     void FordFulkersonMaxFlow();
 private:
     const int sink, source, none;
     int numOfVertices;
-    VertexArrayRec *vertices; 
+    VertexArrayRec *vertices;
     VertexArrayRec **verticesPtr; // used by visit() in LocalTree to update vertices;
     int edgeSlack(Vertex *u) const {
         return u->capacity - u->edgeFlow;
@@ -131,15 +131,15 @@ ostream& operator<< (ostream& out, const Vertex& vr) {
 ostream& operator<< (ostream& out, const Network& net) {
     ostream_iterator<Vertex> output(out," ");
     for (int i = 0; i < net.numOfVertices; i++) {
-        out << i << ": " 
-       	    << net.vertices[i].idName << '|'
+        out << i << ": "
+            << net.vertices[i].idName << '|'
             << net.vertices[i].vertexFlow << '|'
             << net.vertices[i].labeled << '|'
             << net.vertices[i].parent << '|'
             << /* net.vertices[i].corrVer << */ "-> ";
         if (net.vertices[i].adjacent != 0)
-       	    copy (net.vertices[i].adjacent->begin(),
-       	          net.vertices[i].adjacent->end(),output);
+            copy (net.vertices[i].adjacent->begin(),
+                  net.vertices[i].adjacent->end(),output);
         out << endl;
     }
     return out;
@@ -160,9 +160,9 @@ void Network::readCommittees(char *fileName) {
     while (!fIn.eof()) {
         fIn >> name[0]; // skip leading spaces;
         if (fIn.eof())  // spaces at the end of file;
-             break;
+            break;
         for (i = 0; name[i] != ':'; )
-             name[++i] = fIn.get();
+            name[++i] = fIn.get();
         for (i--; isspace(name[i]); i--); // discard trailing spaces;
         name[i+1] = '\0';
         s =  strdup(name);;
@@ -179,18 +179,18 @@ void Network::readCommittees(char *fileName) {
             s =  strdup(name);;
             memberTreeNode.idName = s;
             commVer.forward = false;
-       	    if ((member = memberTree.search(memberTreeNode)) == 0) {
-                 memberVer.idNum = memberTreeNode.idNum = numOfVertices++;
-                 memberTreeNode.adjacent->push_front(Vertex(sink,1,0,true));//sink
-                 memberTreeNode.adjacent->push_front(commVer);
-       	       	 commVerAddr = &*memberTreeNode.adjacent->begin();
-                 memberTree.insert(memberTreeNode);
-             	 memberTreeNode.adjacent = new list<Vertex>;
+            if ((member = memberTree.search(memberTreeNode)) == 0) {
+                memberVer.idNum = memberTreeNode.idNum = numOfVertices++;
+                memberTreeNode.adjacent->push_front(Vertex(sink,1,0,true));//sink
+                memberTreeNode.adjacent->push_front(commVer);
+                commVerAddr = &*memberTreeNode.adjacent->begin();
+                memberTree.insert(memberTreeNode);
+                memberTreeNode.adjacent = new list<Vertex>;
             }
             else {
-                 memberVer.idNum = member->idNum;
-       	       	 member->adjacent->push_front(commVer);
-                 commVerAddr = &*member->adjacent->begin();
+                memberVer.idNum = member->idNum;
+                member->adjacent->push_front(commVer);
+                commVerAddr = &*member->adjacent->begin();
             }
             memberVer.forward = true;
             committeeTreeNode.adjacent->push_front(memberVer);
@@ -204,8 +204,10 @@ void Network::readCommittees(char *fileName) {
         committeeTreeNode.adjacent = new list<Vertex>;
     }
     fIn.close();
-    cout << "\nCommittee tree:\n"; committeeTree.printTree();
-    cout << "\nMember tree:\n";    memberTree.printTree();
+    cout << "\nCommittee tree:\n";
+    committeeTree.printTree();
+    cout << "\nMember tree:\n";
+    memberTree.printTree();
     vertices = *verticesPtr = new VertexArrayRec[numOfVertices];
     if (vertices == 0) {
         cerr << "Not enough memory\n";
@@ -222,25 +224,25 @@ void Network::readCommittees(char *fileName) {
 void Network::label(Vertex *u, int v) {
     vertices[u->idNum].labeled = true;
     if (u->forward)
-         vertices[u->idNum].vertexFlow =
-             min(vertices[v].vertexFlow,edgeSlack(u));
+        vertices[u->idNum].vertexFlow =
+                min(vertices[v].vertexFlow,edgeSlack(u));
     else vertices[u->idNum].vertexFlow =
-             min(vertices[v].vertexFlow,u->edgeFlow);
+                 min(vertices[v].vertexFlow,u->edgeFlow);
     vertices[u->idNum].parent  = v;
     vertices[u->idNum].corrVer = u;
 }
 
 void Network::augmentPath() {
-    register int i, sinkFlow = vertices[sink].vertexFlow;
+    int i, sinkFlow = vertices[sink].vertexFlow;
     Stack<char*> path;
     for (i = sink; i != source; i = vertices[i].parent) {
         path.push(vertices[i].idName);
         if (vertices[i].corrVer->forward)
-             vertices[i].corrVer->edgeFlow += sinkFlow;
+            vertices[i].corrVer->edgeFlow += sinkFlow;
         else vertices[i].corrVer->edgeFlow -= sinkFlow;
         if (vertices[i].parent != source && i != sink)
-             vertices[i].corrVer->twin->edgeFlow =
-                vertices[i].corrVer->edgeFlow;
+            vertices[i].corrVer->twin->edgeFlow =
+                    vertices[i].corrVer->edgeFlow;
     }
     for (i = 0; i < numOfVertices; i++)
         vertices[i].labeled = false;
@@ -256,8 +258,8 @@ void Network::FordFulkersonMaxFlow() {
     list<Vertex>::iterator it;
     for (int i = 0; i < numOfVertices; i++) {
         vertices[i].labeled = false;
-        vertices[i].vertexFlow = 0;  
-        vertices[i].parent = none;   
+        vertices[i].vertexFlow = 0;
+        vertices[i].parent = none;
     }
     vertices[source].vertexFlow = INT_MAX;
     labeled.push(source);
@@ -266,26 +268,26 @@ void Network::FordFulkersonMaxFlow() {
     while (!labeled.empty()) {   // while not stuck;
         int v = labeled.pop();
         for (it = vertices[v].adjacent->begin(); it != vertices[v].adjacent->end(); it++) {
-             u = &*it;
-             if (!Labeled(u)) {
-                 if (u->forward && edgeSlack(u) > 0)
-                      label(u,v);
-                 else if (!u->forward && u->edgeFlow > 0)
-                      label(u,v);
-                 if (Labeled(u))
-                      if (u->idNum == sink) {
-                           augmentPath();
-                           while (!labeled.empty())
-       	       	       	       labeled.pop();   // clear the stack;
-                           labeled.push(source);// look for another path;
-       	       	       	   break;
-                      }
-                      else {
-                           labeled.push(u->idNum);
-                           vertices[u->idNum].labeled = true;
-                      }
-             }
-       	}
+            u = &*it;
+            if (!Labeled(u)) {
+                if (u->forward && edgeSlack(u) > 0)
+                    label(u,v);
+                else if (!u->forward && u->edgeFlow > 0)
+                    label(u,v);
+                if (Labeled(u))
+                    if (u->idNum == sink) {
+                        augmentPath();
+                        while (!labeled.empty())
+                            labeled.pop();   // clear the stack;
+                        labeled.push(source);// look for another path;
+                        break;
+                    }
+                    else {
+                        labeled.push(u->idNum);
+                        vertices[u->idNum].labeled = true;
+                    }
+            }
+        }
     }
 }
 
@@ -293,8 +295,8 @@ int main(int argc, char* argv[]) {
     char fileName[80];
     Network net;
     if (argc != 2) {
-         cout << "Enter a file name: ";
-         cin.getline(fileName,80);
+        cout << "Enter a file name: ";
+        cin.getline(fileName,80);
     }
     else strcpy(fileName,argv[1]);
     net.readCommittees(fileName);

@@ -11,7 +11,7 @@ template<class T>
 class Stack : public stack<T> {
 public:
     T pop() {
-        T tmp = top();
+        T tmp = stack<T>::top();
         stack<T>::pop();
         return tmp;
     }
@@ -21,7 +21,7 @@ template<class T>
 class Queue : public queue<T> {
 public:
     T dequeue() {
-        T tmp = front();
+        T tmp = stack<T>::front();
         queue<T>::pop();
         return tmp;
     }
@@ -34,11 +34,11 @@ template<class T> class BST;
 template<class T>
 class BSTNode {
 public:
-    BSTNode() { 
-        left = right = 0; 
+    BSTNode() {
+        left = right = 0;
     }
     BSTNode(const T& e, BSTNode<T> *l = 0, BSTNode<T> *r = 0) {
-        el = e; left = l; right = r; 
+        el = e; left = l; right = r;
     }
     T el;
     BSTNode<T> *left, *right;
@@ -47,36 +47,36 @@ public:
 template<class T>
 class BST {
 public:
-    BST() { 
-        root = 0; 
+    BST() {
+        root = 0;
     }
-    ~BST() { 
+    ~BST() {
         clear();
     }
     void clear() {
-        clear(root); 
+        clear(root);
         root = 0;
     }
-    bool isEmpty() const { 
-        return root == 0; 
+    bool isEmpty() const {
+        return root == 0;
     }
-    void preorder() { 
-        preorder(root);   
+    void preorder() {
+        preorder(root);
     }
-    void inorder() { 
-        inorder(root); 
+    void inorder() {
+        inorder(root);
     }
-    void postorder() { 
-        postorder(root);  
+    void postorder() {
+        postorder(root);
     }
     void insert(const T&);
-    void recursiveInsert(const T& el) { 
+    void recursiveInsert(const T& el) {
         recursiveInsert(root,el);
     }
-    T* search(const T& el) const { 
+    T* search(const T& el) const {
         return search(root,el);
     }
-    T* recursiveSearch(const T& el) const { 
+    T* recursiveSearch(const T& el) const {
         return recursiveSearch(root,el);
     }
     void deleteByCopying(BSTNode<T>*&);
@@ -100,42 +100,42 @@ protected:
     void preorder(BSTNode<T>*);
     void inorder(BSTNode<T>*);
     void postorder(BSTNode<T>*);
-    virtual void visit(BSTNode<T>* p) { 
-        cout << p->el << ' '; 
+    virtual void visit(BSTNode<T>* p) {
+        cout << p->el << ' ';
     }
 };
 
 template<class T>
 void BST<T>::clear(BSTNode<T> *p) {
     if (p != 0) {
-         clear(p->left);
-         clear(p->right);
-         delete p;
-     }
+        clear(p->left);
+        clear(p->right);
+        delete p;
+    }
 }
 
 template<class T>
-void BST<T>::insert(const T& el) {   
+void BST<T>::insert(const T& el) {
     BSTNode<T> *p = root, *prev = 0;
     while (p != 0) {  // find a place for inserting new node;
         prev = p;
         if (el < p->el)
-             p = p->left;
+            p = p->left;
         else p = p->right;
     }
     if (root == 0)    // tree is empty;
-         root = new BSTNode<T>(el);
+        root = new BSTNode<T>(el);
     else if (el < prev->el)
-         prev->left  = new BSTNode<T>(el);
+        prev->left  = new BSTNode<T>(el);
     else prev->right = new BSTNode<T>(el);
 }
 
 template<class T>
 void BST<T>::recursiveInsert(BSTNode<T>*& p, const T& el) {
     if (p == 0)
-         p = new BSTNode<T>(el);
+        p = new BSTNode<T>(el);
     else if (el < p->el)
-         recursiveInsert(p->left, el);
+        recursiveInsert(p->left, el);
     else recursiveInsert(p->right,el);
 }
 
@@ -143,9 +143,9 @@ template<class T>
 T* BST<T>::search(BSTNode<T>* p, const T& el) const {
     while (p != 0)
         if (el == p->el)
-             return &p->el;
+            return &p->el;
         else if (el < p->el)
-             p = p->left;
+            p = p->left;
         else p = p->right;
     return 0;
 }
@@ -153,21 +153,21 @@ T* BST<T>::search(BSTNode<T>* p, const T& el) const {
 template<class T>
 T* BST<T>::recursiveSearch(BSTNode<T>* p, const T& el) const {
     if (p != 0)
-         if (el == p->el)
-              return &p->el;
-         else if (el < p->el)
-              return recursiveSearch(p->left,el);
-         else return recursiveSearch(p->right,el);
+        if (el == p->el)
+            return &p->el;
+        else if (el < p->el)
+            return recursiveSearch(p->left,el);
+        else return recursiveSearch(p->right,el);
     else return 0;
 }
 
 template<class T>
 void BST<T>::inorder(BSTNode<T> *p) {
-     if (p != 0) {
-         inorder(p->left);
-         visit(p);
-         inorder(p->right);
-     }
+    if (p != 0) {
+        inorder(p->left);
+        visit(p);
+        inorder(p->right);
+    }
 }
 
 template<class T>
@@ -189,96 +189,96 @@ void BST<T>::postorder(BSTNode<T>* p) {
 }
 
 template<class T>
-void BST<T>::deleteByCopying(BSTNode<T>*& node) {    
+void BST<T>::deleteByCopying(BSTNode<T>*& node) {
     BSTNode<T> *previous, *tmp = node;
-     if (node->right == 0)                  // node has no right child;
-          node = node->left;
-     else if (node->left == 0)              // node has no left child;
-          node = node->right; 
-     else {
-          tmp = node->left                  // node has both children;
-          previous = node;                  // 1.
-          while (tmp->right != 0) {         // 2.
-              previous = tmp;
-              tmp = tmp->right;
-          }
-          node->el = tmp->el;               // 3.
-          if (previous == node)
-               previous->left  = tmp->left;
-          else previous->right = tmp->left; // 4.
-     }
-     delete tmp;                            // 5.
+    if (node->right == 0)                  // node has no right child;
+        node = node->left;
+    else if (node->left == 0)              // node has no left child;
+        node = node->right;
+    else {
+        tmp = node->left;                  // node has both children;
+        previous = node;                  // 1.
+        while (tmp->right != 0) {         // 2.
+            previous = tmp;
+            tmp = tmp->right;
+        }
+        node->el = tmp->el;               // 3.
+        if (previous == node)
+            previous->left  = tmp->left;
+        else previous->right = tmp->left; // 4.
+    }
+    delete tmp;                            // 5.
 }
 
 // findAndDeleteByCopying() searches the tree to locate the node containing
 // el. If the node is located, the function DeleteByCopying() is called.
 
 template<class T>
-void BST<T>::findAndDeleteByCopying(const T& el) {    
+void BST<T>::findAndDeleteByCopying(const T& el) {
     BSTNode<T> *p = root, *prev = 0;
-     while (p != 0 && !(p->el == el)) {
-         prev = p;
-         if (el < p->el)
-              p = p->left;
-         else p = p->right;
-     }
-     if (p != 0 && p->el == el)
-          if (p == root)
-               deleteByCopying(root);
-          else if (prev->left == p)
-               deleteByCopying(prev->left);
-          else deleteByCopying(prev->right);
-     else if (root != 0)
-          cout << "el " << el << " is not in the tree\n";
-     else cout << "the tree is empty\n";
-}
-
-template<class T>
-void BST<T>::deleteByMerging(BSTNode<T>*& node) {   
-    BSTNode<T> *tmp = node;
-    if (node != 0) {
-        if (!node->right)           // node has no right child: its left
-             node = node->left;     // child (if any) is attached to its parent;
-        else if (node->left == 0)   // node has no left child: its right
-             node = node->right;    // child is attached to its parent;
-        else {                      // be ready for merging subtrees;
-             tmp = node->left;      // 1. move left
-             while (tmp->right != 0)// 2. and then right as far as possible;
-                tmp = tmp->right;
-             tmp->right =           // 3. establish the link between the
-                node->right;        //    the rightmost node of the left
-                                    //    subtree and the right subtree;
-             tmp = node;            // 4.
-             node = node->left;     // 5.
-        }
-        delete tmp;                 // 6.
-     }
-}
-
-template<class T>
-void BST<T>::findAndDeleteByMerging(const T& el) {    
-    BSTNode<T> *node = root, *prev = 0;
-    while (node != 0) {
-        if (node->el == el)
-             break;
-        prev = node;
-        if (el < node->el)
-             node = node->left;
-        else node = node->right;
+    while (p != 0 && !(p->el == el)) {
+        prev = p;
+        if (el < p->el)
+            p = p->left;
+        else p = p->right;
     }
-    if (node != 0 && node->el == el)
-         if (node == root)
-              deleteByMerging(root);
-         else if (prev->left == node)
-              deleteByMerging(prev->left);
-         else deleteByMerging(prev->right);
+    if (p != 0 && p->el == el)
+        if (p == root)
+            deleteByCopying(root);
+        else if (prev->left == p)
+            deleteByCopying(prev->left);
+        else deleteByCopying(prev->right);
     else if (root != 0)
-         cout << "el " << el << " is not in the tree\n";
+        cout << "el " << el << " is not in the tree\n";
     else cout << "the tree is empty\n";
 }
 
 template<class T>
-void BST<T>::iterativePreorder() {    
+void BST<T>::deleteByMerging(BSTNode<T>*& node) {
+    BSTNode<T> *tmp = node;
+    if (node != 0) {
+        if (!node->right)           // node has no right child: its left
+            node = node->left;     // child (if any) is attached to its parent;
+        else if (node->left == 0)   // node has no left child: its right
+            node = node->right;    // child is attached to its parent;
+        else {                      // be ready for merging subtrees;
+            tmp = node->left;      // 1. move left
+            while (tmp->right != 0)// 2. and then right as far as possible;
+                tmp = tmp->right;
+            tmp->right =           // 3. establish the link between the
+                    node->right;        //    the rightmost node of the left
+            //    subtree and the right subtree;
+            tmp = node;            // 4.
+            node = node->left;     // 5.
+        }
+        delete tmp;                 // 6.
+    }
+}
+
+template<class T>
+void BST<T>::findAndDeleteByMerging(const T& el) {
+    BSTNode<T> *node = root, *prev = 0;
+    while (node != 0) {
+        if (node->el == el)
+            break;
+        prev = node;
+        if (el < node->el)
+            node = node->left;
+        else node = node->right;
+    }
+    if (node != 0 && node->el == el)
+        if (node == root)
+            deleteByMerging(root);
+        else if (prev->left == node)
+            deleteByMerging(prev->left);
+        else deleteByMerging(prev->right);
+    else if (root != 0)
+        cout << "el " << el << " is not in the tree\n";
+    else cout << "the tree is empty\n";
+}
+
+template<class T>
+void BST<T>::iterativePreorder() {
     Stack<BSTNode<T>*> travStack;
     BSTNode<T> *p = root;
     if (p != 0) {
@@ -287,21 +287,21 @@ void BST<T>::iterativePreorder() {
             p = travStack.pop();
             visit(p);
             if (p->right != 0)
-                 travStack.push(p->right);
+                travStack.push(p->right);
             if (p->left != 0)             // left child pushed after right
-                 travStack.push(p->left); // to be on the top of the stack;
+                travStack.push(p->left); // to be on the top of the stack;
         }
     }
 }
 
 template<class T>
-void BST<T>::iterativeInorder() {    
+void BST<T>::iterativeInorder() {
     Stack<BSTNode<T>*> travStack;
     BSTNode<T> *p = root;
     while (p != 0) {
         while (p != 0) {                 // stack the right child (if any)
             if (p->right)                // and the node itself when going
-               travStack.push(p->right); // to the left;
+                travStack.push(p->right); // to the left;
             travStack.push(p);
             p = p->left;
         }
@@ -312,13 +312,13 @@ void BST<T>::iterativeInorder() {
         }
         visit(p);                        // visit also the first node with
         if (!travStack.empty())          // a right child (if any);
-             p = travStack.pop();
+            p = travStack.pop();
         else p = 0;
     }
 }
 
 template<class T>
-void BST<T>::iterativePostorder() {    
+void BST<T>::iterativePostorder() {
     Stack<BSTNode<T>*> travStack;
     BSTNode<T>* p = root, *q = root;
     while (p != 0) {
@@ -328,16 +328,16 @@ void BST<T>::iterativePostorder() {
             visit(p);
             q = p;
             if (travStack.empty())
-                 return;
+                return;
             p = travStack.pop();
         }
         travStack.push(p);
         p = p->right;
-     }
+    }
 }
 
 template<class T>
-void BST<T>::breadthFirst() {    
+void BST<T>::breadthFirst() {
     Queue<BSTNode<T>*> queue;
     BSTNode<T> *p = root;
     if (p != 0) {
@@ -346,35 +346,35 @@ void BST<T>::breadthFirst() {
             p = queue.dequeue();
             visit(p);
             if (p->left != 0)
-                 queue.enqueue(p->left);
+                queue.enqueue(p->left);
             if (p->right != 0)
-                 queue.enqueue(p->right);
+                queue.enqueue(p->right);
         }
     }
 }
 
 template<class T>
-void BST<T>::MorrisInorder() {   
+void BST<T>::MorrisInorder() {
     BSTNode<T> *p = root, *tmp;
     while (p != 0)
         if (p->left == 0) {
-             visit(p);
-             p = p->right;
+            visit(p);
+            p = p->right;
         }
         else {
-             tmp = p->left;
-             while (tmp->right != 0 &&// go to the rightmost node of
-                    tmp->right != p)  // the left subtree or
-                  tmp = tmp->right;   // to the temporary parent of p;
-             if (tmp->right == 0) {   // if 'true' rightmost node was
-                  tmp->right = p;     // reached, make it a temporary
-                  p = p->left;        // parent of the current root,
-             }
-             else {                   // else a temporary parent has been
-                  visit(p);           // found; visit node p and then cut
-                  tmp->right = 0;     // the right pointer of the current
-                  p = p->right;       // parent, whereby it ceases to be
-             }                        // a parent;
+            tmp = p->left;
+            while (tmp->right != 0 &&// go to the rightmost node of
+                   tmp->right != p)  // the left subtree or
+                tmp = tmp->right;   // to the temporary parent of p;
+            if (tmp->right == 0) {   // if 'true' rightmost node was
+                tmp->right = p;     // reached, make it a temporary
+                p = p->left;        // parent of the current root,
+            }
+            else {                   // else a temporary parent has been
+                visit(p);           // found; visit node p and then cut
+                tmp->right = 0;     // the right pointer of the current
+                p = p->right;       // parent, whereby it ceases to be
+            }                        // a parent;
         }
 }
 
@@ -383,23 +383,23 @@ void BST<T>::MorrisPreorder() {
     BSTNode<T> *p = root, *tmp;
     while (p != 0) {
         if (p->left == 0) {
-             visit(p);
-             p = p->right;
+            visit(p);
+            p = p->right;
         }
         else {
-             tmp = p->left;
-             while (tmp->right != 0 &&// go to the rightmost node of
-                    tmp->right != p)  // the left subtree or
-                  tmp = tmp->right;   // to the temporary parent of p;
-             if (tmp->right == 0) {   // if 'true' rightmost node was
-                  visit(p);           // reached, visit the root and
-                  tmp->right = p;     // make the rightmost node a temporary
-                  p = p->left;        // parent of the current root,
-             }
-             else {                   // else a temporary parent has been
-                  tmp->right = 0;     // found; cut the right pointer of
-                  p = p->right;       // the current parent, whereby it ceases
-             }                        // to be a parent;
+            tmp = p->left;
+            while (tmp->right != 0 &&// go to the rightmost node of
+                   tmp->right != p)  // the left subtree or
+                tmp = tmp->right;   // to the temporary parent of p;
+            if (tmp->right == 0) {   // if 'true' rightmost node was
+                visit(p);           // reached, visit the root and
+                tmp->right = p;     // make the rightmost node a temporary
+                p = p->left;        // parent of the current root,
+            }
+            else {                   // else a temporary parent has been
+                tmp->right = 0;     // found; cut the right pointer of
+                p = p->right;       // the current parent, whereby it ceases
+            }                        // to be a parent;
         }
     }
 }
@@ -410,33 +410,33 @@ void BST<T>::MorrisPostorder() {
     p->left = root;
     while (p != 0)
         if (p->left == 0)
-             p = p->right;
+            p = p->right;
         else {
-             tmp = p->left;
-             while (tmp->right != 0 &&// go to the rightmost node of
-                    tmp->right != p)  // the left subtree or
-                  tmp = tmp->right;   // to the temporary parent of p;
-             if (tmp->right == 0) {   // if 'true' rightmost node was
-                  tmp->right = p;     // reached, make it a temporary
-                  p = p->left;        // parent of the current root,
-             }
-             else {             // else a temporary parent has been found;
-                  // process nodes between p->left (included) and p (excluded)
-                  // extended to the right in modified tree in reverse order;
-                  // the first loop descends this chain of nodes and reverses
-                  // right pointers; the second loop goes back, visits nodes,
-                  // and reverses right pointers again to restore the pointers
-                  // to their original setting;
-                  for (q = p->left, r = q->right, s = r->right;
-                       r != p; q = r, r = s, s = s->right)
-                      r->right = q;
-                  for (s = q->right; q != p->left;
-                      q->right = r, r = q, q = s, s = s->right)
-                     visit(q);
-                  visit(p->left);     // visit node p->left and then cut
-                  tmp->right = 0;     // the right pointer of the current
-                  p = p->right;       // parent, whereby it ceases to be
-             }                        // a parent;
+            tmp = p->left;
+            while (tmp->right != 0 &&// go to the rightmost node of
+                   tmp->right != p)  // the left subtree or
+                tmp = tmp->right;   // to the temporary parent of p;
+            if (tmp->right == 0) {   // if 'true' rightmost node was
+                tmp->right = p;     // reached, make it a temporary
+                p = p->left;        // parent of the current root,
+            }
+            else {             // else a temporary parent has been found;
+                // process nodes between p->left (included) and p (excluded)
+                // extended to the right in modified tree in reverse order;
+                // the first loop descends this chain of nodes and reverses
+                // right pointers; the second loop goes back, visits nodes,
+                // and reverses right pointers again to restore the pointers
+                // to their original setting;
+                for (q = p->left, r = q->right, s = r->right;
+                     r != p; q = r, r = s, s = s->right)
+                    r->right = q;
+                for (s = q->right; q != p->left;
+                     q->right = r, r = q, q = s, s = s->right)
+                    visit(q);
+                visit(p->left);     // visit node p->left and then cut
+                tmp->right = 0;     // the right pointer of the current
+                p = p->right;       // parent, whereby it ceases to be
+            }                        // a parent;
         }
 }
 

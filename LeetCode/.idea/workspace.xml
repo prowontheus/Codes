@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="LeetCode" targetName="LeetCode" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db127607-e512-4475-8922-cea4bdcb9693" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/.idea/C++DataStruct.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/.idea/a.out.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/5-12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/5-13.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/6-13.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/6-13.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/6-14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/6-14.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/6-4-3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/DSW.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/DSW.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/RedBlackTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/RedBlackTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/eightQueens.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/eightQueens.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++DataStruct/rb_tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LeetCode1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LeetCode2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_twoSum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/002_addTwoNumbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003_findMedianSortedArrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/001_twoSum.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/BankOne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/BankOne.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/distinctRepresentatives.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/distinctRepresentatives.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/genQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/genQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/genSplay.h" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/genSplay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/genThreaded.h" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/genThreaded.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/intSLList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/intSLList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/interpreter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/library.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/library.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/maze.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/maze.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/queens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/queens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++DataStruct/splay.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++DataStruct/splay.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/ansi2knr.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/ansi2knr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/cderror.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/cdjpeg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/cdjpeg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/change.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/cjpeg.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/cjpeg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/ckconfig.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/coderules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/config.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/depcomp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/djpeg.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/djpeg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/example.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/filelist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/install.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jaricom.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcapimin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcapistd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcarith.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jccoefct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jccolor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcdctmgr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jchuff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcinit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcmainct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcmarker.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcmaster.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcomapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.bcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.dj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.manx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.mc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.sas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.st" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.vc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.vms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jconfig.wat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcparam.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcprepct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jcsample.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jctrans.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdapimin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdapistd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdarith.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdatadst.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdatasrc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdcoefct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdcolor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jddctmgr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdhuff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdinput.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdmainct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdmarker.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdmaster.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdmerge.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdpostct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdsample.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jdtrans.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jerror.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jerror.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jfdctflt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jfdctfst.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jfdctint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jidctflt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jidctfst.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jidctint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jinclude.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemansi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemdos.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemdosa.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemmac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemmgr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemname.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemnobs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmemsys.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jmorecfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jpegint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jpeglib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jpegtran.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jpegtran.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jquant1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jquant2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jutils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/jversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/libjpeg.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/libjpeg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/ltmain.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makcjpeg.st" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makdjpeg.st" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makeadsw.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makeasln.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makecdep.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makecdsp.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makecfil.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makecmak.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makecvcx.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makeddep.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makeddsp.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makedfil.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makedmak.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makedvcx.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.ansi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.bcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.dj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.manx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.mc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.mms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.sas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.unix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.vc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.vms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makefile.wat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejdep.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejdsp.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejdsw.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejfil.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejmak.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejsln.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makejvcx.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makeproj.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makerdep.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makerdsp.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makerfil.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makermak.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makervcx.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/maketdep.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/maketdsp.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/maketfil.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/maketmak.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/maketvcx.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makewdep.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makewdsp.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makewfil.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makewmak.vc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makewvcx.v10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makljpeg.st" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/maktjpeg.st" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/makvms.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/missing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdbmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdcolmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdgif.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdjpgcom.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdjpgcom.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdppm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdrle.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdswitch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/rdtarga.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/testimg.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/testimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/testimg.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/testimgp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/testorig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/testprog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/transupp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/transupp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/usage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wizard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrbmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrgif.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrjpgcom.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrjpgcom.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrppm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrrle.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuncPoi/jpeg-8d/wrtarga.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyDB/MyDB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyDB/src/MyDB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyDB/src/test.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../String.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/CallHello.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Concat.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Declare.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/FillString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Fillvector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/GetWords.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Hello.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/HelloStrings.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Intvector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Numconv.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Scopy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/Stream2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C02/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/AllDefinitions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/ArgsToInts.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/ArrayAddresses.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/ArrayArguments.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/ArrayIdentifier.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Arrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Assert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/AutoIncrement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Basic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Bitwise.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Boolean.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/CastFromVoidPointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/CatsInHats.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Charlist.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/CommaOperator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/CommandLineArgs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/ComplicatedDefinitions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/DynamicDebugFlags.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Enum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/FileStatic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/FileStatic2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/FloatingAsBinary.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Forward.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/FunctionCallCast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/FunctionTable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Global2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Guess.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Guess2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Ifthen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Mathops.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Menu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Menu2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/OnTheFly.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PassAddress.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PassByValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PassReference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Pitfall.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PointerArithmetic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PointerIncrement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PointerIncrement2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PointerToFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/PointersAndBrackets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Return.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Rotation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Scope.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/SelfReferential.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/SimpleCast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/SimpleStruct.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/SimpleStruct2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/SimpleStruct3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Specify.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Static.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/StringizingExpressions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/StructArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/Union.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/VoidPointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/YourPets1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/YourPets2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/const_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/gotoKeyword.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/printBinary.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/printBinary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/reinterpret_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/sizeof.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/sizeofOperator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C03/static_cast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/CLib.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/CLib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/CLibTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/CppLib.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/CppLib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/CppLibTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Scoperes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Simple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Sizeof.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/Stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/StackTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C04/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Class.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Friend.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Handle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Handle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/NestFriend.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Private.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Public.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Stack2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/Stash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/UseHandle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C05/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/AutoDefaultConstructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Constructor1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/DefineInitialize.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Multiarg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Nojump.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Stack3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Stack3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Stack3Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Stash2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Stash2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/Stash2Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C06/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/AnonymousUnion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Def.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Mem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Mem2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/MemTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Stash3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Stash3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Stash3Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/SuperVar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/UnionClass.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/Use.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C07/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/BuiltInTypeConstructors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Castaway.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/ConstInitialization.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/ConstMember.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/ConstPointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/ConstPointers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/ConstReturnValues.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/ConstTemporary.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Constag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Constval.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/EncapsulatingTypes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/EnumHack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Mutable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/PointerAssignment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Quoter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Safecons.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/StringStack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/Volatile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C08/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Access.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Cpptime.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Cpptime.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/ErrTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/EvaluationOrder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Hidden.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Inline.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/MacroSideEffects.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Noinsitu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Rectangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Rectangle2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Stack4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Stack4Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Stash4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Stash4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/Stash4Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C09/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Arithmetic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/BobsSuperDuperLibrary.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Continuation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Dependency1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Dependency1StatFun.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Dependency1StatFun.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Dependency2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Dependency2StatFun.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Dependency2StatFun.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/FriendInjection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Header1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Header2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Initializer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Initializer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Initializer2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/InitializerDefs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Local.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/LocalExtern.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/LocalExtern2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/MyLib.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/NamespaceInt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/NamespaceMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/NamespaceOverriding1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/NamespaceOverriding2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/OverridingAmbiguity.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/ScopeResolution.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/SimpleStaticMemberFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Singleton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/StaticArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/StaticDestructors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/StaticMemberFunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/StaticObjectArrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/StaticObjectsInFunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/StaticVariablesInfunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Statinit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Technique2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/Technique2b.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/UnnamedNamespaces.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/UsingDeclaration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/UsingDeclaration1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/UsingDeclaration2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C10/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/ConstReferenceArguments.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/DefaultCopyConstructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/FreeStandingReferences.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/HowMany.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/HowMany2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/Linenum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/NoCopyConstruction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/PassingBigStructures.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/PmemFunDefinition.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/PointerToMemberData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/PointerToMemberFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/PointerToMemberFunction2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/Reference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/ReferenceToPointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/SimpleStructure.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C11/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/AutomaticOperatorEquals.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/AutomaticTypeConversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Byte.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/ByteTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/CopyingVsInitialization.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/CopyingVsInitialization2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/CopyingWithPointers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/ExplicitKeyword.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Integer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Integer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/IntegerTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/IostreamOperatorOverloading.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/NestedSmartPointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/OperatorOverloadingConversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/OperatorOverloadingSyntax.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/OverloadingOperatorComma.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/OverloadingUnaryOperators.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/PointerToMemberOperator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/ReferenceCounting.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/ReflexivityInOverloading.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/SimpleAssignment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/SmartPointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Strings1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/Strings2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/TypeConversionAmbiguity.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/TypeConversionFanout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C12/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/ArrayOperatorNew.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/BadVoidPointerDeletion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/Framis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/GlobalOperatorNew.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/MallocClass.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/NewAndDelete.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/NewHandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/NoMemory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/PStash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/PStash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/PStashTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/PlacementOperatorNew.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/Tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C13/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Car.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Combined.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Composition.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Composition2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/CopyConstructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/FName1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/FName2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/InheritStack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/InheritStack2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Inheritance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Instrument.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/NameHiding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/OperatorInheritance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Order.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/PrivateInheritance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Protected.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/PseudoConstructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/SynthesizedFunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/Useful.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C14/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/AddingVirtuals.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/DynamicCast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Early.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Instrument2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Instrument3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Instrument4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Instrument5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/NameHiding2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/OStack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/OStackTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/ObjectSlicing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/OperatorPolymorphism.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/PureVirtualDefinitions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/PureVirtualDestructors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/Sizes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/StaticHierarchyNavigation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/UnAbstract.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/VariantReturn.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/VirtualDestructors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/VirtualsInDestructors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C15/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Array2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Array3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/AutoCounter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/AutoCounter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Borland.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Drawing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/IntStack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/IterIntStack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/IterStackTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/IterStackTemplateTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Microsoft.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/NestedIterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/OwnerStack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/OwnerStackTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/SelfCounter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/SelfCounter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/Shape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/StackTemplate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/StackTemplateTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TPStash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TPStash2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TPStash2Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TPStashTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TStack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TStack2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TStack2Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/TStackTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/ValueStack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/ValueStackTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/all.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/fibonacci.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/fibonacci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/C16/gcc.makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/CompilerData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/Copyright.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/RevisionHistory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/makefile.bugs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/code/require.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/AppendixA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/AppendixB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/AppendixC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/BackMatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Chapter16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/CompilerData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Contents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/DocIndex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Frames-expanded-TOC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Frames.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Frontmatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/LaunchContents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/LaunchDocIndex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/Preface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/README-HTML.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/RevisionHistory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/SimpleContents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo00.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo07.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo08.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo09.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/TIC2Vo23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-one/html/mindview-head.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/Borland.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Autoexcp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Basexcpt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Catchref.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Cleanup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Except.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/FunctionTryBlock.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Nonlocal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Rawp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Terminator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/Wrapped.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C01/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/Date.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/Date.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/DateTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/DateTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/SimpleDateTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/Stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/StackTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/StackTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/SuiteExample.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C02/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C03/MemCheck.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C03/MemCheck.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C03/MemTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C03/Trace.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C03/Tracetst.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C03/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/AddStrings.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/BadStringIndexing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/CmpIter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/CompStr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/Compare.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/Compare2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/Find.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/HTMLStripper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/NewFind.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/Replace.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/ReplaceAndGrow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/ReprocessHTML.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/RevStr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/Rparse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/Sieve.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/SiteMapConvert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/SmallString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/SmallString2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/StrSize.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/StringCharReplace.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/StringIndexing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/StringIterators.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/StringReplace.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/StringStorage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/TrimTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/UhOh.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/ichar_traits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C04/trim.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Breakup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Cppcheck.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/DataLogger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Datagen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Datalog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Datascan.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Effector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/FileClass.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/FileClass.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/FileClassTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Format.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Fullwrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Iofile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Iosexamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Istring.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Makemain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Manips.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/NumberPhotos.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Ostring.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Sbufget.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Seeking.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Showerr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Strfile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Strmove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Stype.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/Walrus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C05/nl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/ArraySize.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/DelayedInstantiation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/ExplicitInstantiation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Getmem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Getmem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Gromit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Nobloat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/NobloatTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Sorted.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Sorted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/TemplateFunctionAddress.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/TemplateTemplate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/TypenamedID.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/Urand.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/UsingTypename.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/applyGromit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/applyGromit2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/applyMember.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/applySequence.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/stringConv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C06/stringConvTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Apply.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/AssocInserter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/AssociativeBasics.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/BankTeller.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/BasicSequenceOperations.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/BitSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/DequeConversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/DequeCoreDump.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/DequeOverflow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/FEditTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/FileEditor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/FileEditor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/IndexingVsAt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Inserters.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Intset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ListRobustness.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ListSpecialFunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ListStability.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ListVsSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/MapVsHashMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/MultiSet1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/MultiSetWordCount.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Noisy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/NoisyMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/PriorityQueue8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ProgValTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ProgVals.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/ProgVals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/RawStorageIterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Reversible.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Ring.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/SequencePerformance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/SimpleGenerators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Stack1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Stack2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Stack3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Stlshape.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Stlshape2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/StreamIt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/StreamTokenizer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/StreamTokenizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/StreambufIterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/StringDeque.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/StringVector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Swapping.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/Thesaurus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/TokenIterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/TokenIteratorTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/TokenizeTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/UniqueList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/VectorCoreDump.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/VectorInsertAndErase.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/VectorOfBool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/VectorOverflow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/WildLifeMonitor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/WordCount.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/WordList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/WordList2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/WordSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/assocGen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C07/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Binder1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Binder2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Binder3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Binder4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/CalcInventory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Compose2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Counted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Counting.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/FillGenerateTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/FindBlanks.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/ForEach.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/FuncObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/FunctionObjects.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Generators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Inventory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Manipulations.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/MemFun1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/MemFun2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/MemFun3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/MemFun4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/MergeTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/NString.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/NoCompose.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/NumStringGen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/NumericTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/PrintSequence.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/PtrFun1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/PtrFun2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/RandGenTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Removing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/SearchReplace.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/SetOperations.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/SortTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/SortedSearchTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/SpecialList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/Transform.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/TransformNames.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/copy_if.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C08/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/ConstructorOrder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/DynamicCast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/RTTIWithoutPolymorphism.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/RTTIandMultipleInheritance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/RTTIandNesting.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/RTTIwithExceptions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/RTTIwithReferences.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/Recycle2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/Rtshapes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/Selfrtti.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/TypeidAndBuiltins.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/Voidrtti.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C09/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C0B/Dummy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C0B/Stack4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C0B/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Mithis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/MultipleInheritance1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/MultipleInheritance2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/MultipleInheritance3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/MultipleInheritance4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Overhead.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Paste.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Persist1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Persist2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Vendor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/Vendor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C10/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/AbstractFactory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Aluminum.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/BeeAndFlowers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Bicycle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Bicycle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/BikeTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Cardboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/DDTrashProtoInit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/DoubleDispatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/DynaTrash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Fillable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Fillablevector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/FunctionStaticSingleton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Glass.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/InnerClassIdiom.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/LogFile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/LogFile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Observable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/ObservedFlower.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Observer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Paper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/PaperScissorsRock.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Recycle1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Recycle2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Recycle3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Recycle4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/ShapeFactory1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/ShapeFactory2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/SingletonPattern.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/SingletonPattern2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Trash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Trash.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Trash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/TrashProtoInit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/TrashStat.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/TrashVisitor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/TypedBin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/UseLog1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/UseLog1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/UseLog2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/VirtualConstructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/Visitor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/VisitorTrashPInit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/fillBin.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/fillBin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/C11/sumValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/CopyRight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/Microsoft.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/TestSuite/Suite.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/TestSuite/Suite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/TestSuite/Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/TestSuite/Test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/TestSuite/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/arraySize.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/edg.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/g++295.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/g++3.mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/purge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/code/require.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/AppendA.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/AppendB.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap01.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap02.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap03.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap04.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap05.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap06.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap07.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap08.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap09.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap10.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Chap11.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Contents.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/DocIdx.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/FDocIdx.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/FramCont.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/FrontMtr.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/IndexXTOC.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Part1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Part2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Part3.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/Preface.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/RevisionHistory.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/SimpCont.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV200.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV201.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV202.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV203.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV204.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV205.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV206.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV207.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV208.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/TicV209.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thinking in c++ 2/TICPP-2nd-ed-Vol-two/html/mindview.gif" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fhm3sosnFV3kuuE9DqhHJvXaT6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LeetCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="LeetCode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="LeetCode">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db127607-e512-4475-8922-cea4bdcb9693" name="默认更改列表" comment="" />
+      <created>1596678502686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596678502686</updated>
+      <workItem from="1596678504376" duration="4875000" />
+      <workItem from="1596684559523" duration="3704000" />
+      <workItem from="1596765467086" duration="3742000" />
+      <workItem from="1596967191687" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596767297290">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596767297290" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596781402725">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596781402725" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596781402723">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596781402723" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596781402723">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596781402723" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596781402724">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596781402724" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1596696512123">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596696512123" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1596696512122">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596696512122" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1596696512122">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596696512122" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1596696512123">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596696512123" />
+    <state x="297" y="241" key="SettingsEditor" timestamp="1596684816925">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="297" y="241" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596684816925" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/001_twoSum.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/002_addTwoNumbers.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/002_addTwoNumbers.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -45,4 +45,3 @@ private:
     void createLeaf(char,char*,TrieNonLeafNode*);
     void printTrie(int,TrieNonLeafNode*,char*);
 };
-

@@ -30,7 +30,7 @@ public:
         lst.push_back(el);
     }
 private:
-    list<T> lst;
+    std::list<T> lst;
 };
 
 #endif

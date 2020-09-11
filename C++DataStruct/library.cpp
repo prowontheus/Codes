@@ -52,8 +52,8 @@ private:
 
 class CheckedOutBook {
 public:
-    CheckedOutBook(list<Author>::iterator ar = 0, 
-       	       	   list<Book>::iterator bk = 0) {
+    CheckedOutBook(list<Author>::iterator ar, 
+       	       	    list<Book>::iterator bk) {
         author = ar; 
         book = bk;
     }
@@ -122,7 +122,7 @@ ostream& Patron::printPatron(ostream& out) const {
 
 template<class T>
 ostream& operator<< (ostream& out, const list<T>& lst) {
-    for (list<T>::const_iterator ref = lst.begin(); ref != lst.end(); ref++)
+    for (typename list<T>::const_iterator ref = lst.begin(); ref != lst.end(); ref++)
         out << *ref; // overloaded <<
     return out;
 }

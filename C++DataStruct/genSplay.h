@@ -4,6 +4,8 @@
 #ifndef SPLAYING
 #define SPLAYING
 
+#include <iostream>
+
 template<class T> class SplayTree;
 
 template<class T>
@@ -77,43 +79,57 @@ template<class T>
 void SplayTree<T>::semisplay(SplayingNode<T>* p) {
     while (p != root) {
         if (p->parent->parent == 0)    // if p's parent is the root;
-             if (p->parent->left == p)
-                  rotateR(p);
-             else rotateL(p);
+        {
+            if (p->parent->left == p)
+                rotateR(p);
+            else rotateL(p);
+        }
         else if (p->parent->left == p) // if p is a left child;
-             if (p->parent->parent->left == p->parent) {
-                  rotateR(p->parent);
-                  p = p->parent;
-             }
-             else {
-                  rotateR(p); // rotate p and its parent;
-                  rotateL(p); // rotate p and its new parent;
-             }
+        {
+            if (p->parent->parent->left == p->parent)
+            {
+                rotateR(p->parent);
+                p = p->parent;
+            }
+            else
+            {
+                rotateR(p); // rotate p and its parent;
+                rotateL(p); // rotate p and its new parent;
+            }
+        }
         else                          // if p is a rigth child;
-             if (p->parent->parent->right == p->parent) {
-                  rotateL(p->parent);
-                  p = p->parent;
-             }
-             else {
-                  rotateL(p); // rotate p and its parent;
-                  rotateR(p); // rotate p and its new parent;
-             }
+        {
+            if (p->parent->parent->right == p->parent)
+            {
+                rotateL(p->parent);
+                p = p->parent;
+            } else
+            {
+                rotateL(p); // rotate p and its parent;
+                rotateR(p); // rotate p and its new parent;
+            }
+        }
         if (root == 0)              // update the root;
             root = p;
     }
 }
 
 template<class T>
-T* SplayTree<T>::search(const T& el) {
+T* SplayTree<T>::search(const T& el)
+{
     SplayingNode<T> *p = root;
     while (p != 0)
-        if (p->info == el) {        // if el is in the tree,
-             semisplay(p);          // move it upward;
-             return &p->info;
+    {
+        if (p->info == el)
+        {        // if el is in the tree,
+            semisplay(p);          // move it upward;
+            return &p->info;
         }
         else if (el < p->info)
-             p = p->left;
-        else p = p->right;
+            p = p->left;
+        else
+            p = p->right;
+    }
     return 0;
 }
 
@@ -127,7 +143,7 @@ void SplayTree<T>::insert(const T& el) {
         else p = p->right;
     }
     if ((newNode = new SplayingNode<T>(el,0,0,prev)) == 0) {
-         cerr << "No room for new nodes\n";
+         std::cerr << "No room for new nodes\n";
          exit(1);
     }
     if (root == 0)    // the tree is empty;

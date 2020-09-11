@@ -8,7 +8,7 @@ template<class T>
 class Stack : public stack<T> {
 public:
     T pop() {
-        T tmp = top();
+        T tmp = stack<T>::top();
         stack<T>::pop();
         return tmp;
     }

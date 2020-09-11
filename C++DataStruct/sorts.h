@@ -225,15 +225,15 @@ void mergesort(T data[], const int n) {
 #include <queue>
 
 template<class T>
-class Queue : public queue<T> {
+class Queue : public std::queue<T> {
 public:
     T dequeue() {
-        T tmp = front();
-        queue<T>::pop();
+        T tmp = std::queue<T>::front();
+        std::queue<T>::pop();
         return tmp;
     }
     void enqueue(const T& el) {
-        push(el);
+        this->push(el);
     }
 };
 

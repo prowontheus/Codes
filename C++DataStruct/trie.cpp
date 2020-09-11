@@ -10,7 +10,7 @@ using namespace std;
 TrieLeafNode::TrieLeafNode(char *suffix) {
     leaf = true;
     word = new char[strlen(suffix)+1];
-    if (word == 0) {
+    if (word == nullptr) {
         cerr << "Out of memory2.\n";
         exit(-1);
     }
@@ -202,4 +202,3 @@ void Trie::insert(char *word) {
         }
     }
 }
-

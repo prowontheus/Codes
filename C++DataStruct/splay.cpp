@@ -1,11 +1,10 @@
-#include <iostream>
 #include <fstream>
 #include <cctype>
 #include <cstring>
 #include <cstdlib> // exit()
 #include "genSplay.h"
-
-using namespace std;
+#include <vector>
+#include <algorithm>
 
 class Word {
 public:
@@ -29,7 +28,7 @@ public:
     WordSplay() {
         differentWords = wordCnt = 0;
     }
-    void run(ifstream&,char*);
+    void run(std::ifstream&,char*);
 private:
     int differentWords, // counter of different words in a text file;
         wordCnt;        // counter of all words in the same file;
@@ -41,15 +40,18 @@ void WordSplay::visit(SplayingNode<Word> *p) {
     wordCnt += p->info.freq;
 }
 
-void WordSplay::run(ifstream& fIn, char *fileName) {
+void WordSplay::run(std::ifstream& fIn, char *fileName) {
     char ch = ' ', i;
     char s[100];
     Word rec;
-    while (!fIn.eof()) {
+    while (!fIn.eof())
+    {
         while (1)
+        {
             if (!fIn.eof() && !isalpha(ch)) // skip nonletters
-                 fIn.get(ch);
+                fIn.get(ch);
             else break;
+        }
         if (fIn.eof())       // spaces at the end of fIn;
              break;
         for (i = 0; !fIn.eof() && isalpha(ch); i++) {
@@ -58,7 +60,7 @@ void WordSplay::run(ifstream& fIn, char *fileName) {
         }
         s[i] = '\0';
         if (!(rec.word = new char[strlen(s)+1])) {
-             cerr << "No room for new words.\n";
+             std::cerr << "No room for new words.\n";
              exit(1);
         }
         strcpy(rec.word,s);
@@ -68,25 +70,29 @@ void WordSplay::run(ifstream& fIn, char *fileName) {
         else p->freq++;
     }
     inorder();
-    cout << "\n\nFile " << fileName
+    std::cout << "\n\nFile " << fileName
          << " contains " << wordCnt << " words among which "
          << differentWords << " are different\n";
 }
 
 int main(int argc, char* argv[]) {
     char fileName[80];
-    WordSplay splayTree;
+    WordSplay *splayTree = new WordSplay();
     if (argc != 2) {
-         cout << "Enter a file name: ";
-         cin  >> fileName;
+         std::cout << "Enter a file name: ";
+         std::cin  >> fileName;
     }
     else strcpy(fileName,argv[1]);
-    ifstream fIn(fileName);
+    std::ifstream fIn(fileName);
     if (fIn.fail()) {
-        cerr << "Cannot open " << fileName << endl;
+        std::cerr << "Cannot open " << fileName << std::endl;
         return 1;
     }
-    splayTree.run(fIn,fileName);
+    auto time1 = clock();
+    splayTree->run(fIn,fileName);
+    auto time2 = clock();
+    std::cout << "全程耗时：" << (float)(time2-time1)/1000 << "毫秒" << std::endl;
     fIn.close();
+    delete splayTree;
     return 0;
 }

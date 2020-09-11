@@ -1,6 +1,6 @@
 //************************  intSLList.cpp  **************************
 
-#include <iostream.h>
+#include <iostream>
 #include "intSLList.h"
 
 IntSLList::~IntSLList() {
@@ -84,7 +84,7 @@ bool IntSLList::isInList(int el) const {
 
 void IntSLList::printAll() const {
     for (IntSLLNode *tmp = head; tmp != 0; tmp = tmp->next)
-        cout << tmp->info << " ";
-	cout << endl;
+        std::cout << tmp->info << " ";
+	std::cout << std::endl;
 }
 

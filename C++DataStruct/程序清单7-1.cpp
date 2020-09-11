@@ -35,15 +35,15 @@ public:
 
 void printSet(const set<int>& s, char *c) {
     cout << c << ": ";
-    for (set<int>::const_iterator i = s.begin(); i != s.end(); i++)
-	cout << *i << ' ';
+    for (auto i : s)
+	    cout << i << ' ';
     cout << endl;
 }
 
 void printMSet(const multiset<int>& s, char *c) {
     cout << c << ": ";
-    for (multiset<int>::const_iterator i = s.begin(); i != s.end(); i++)
-       	cout << *i << ' ';
+    for (auto i : s)
+       	cout << i << ' ';
     cout << endl;
 }
 
@@ -66,19 +66,21 @@ int main() {
     set<int> st3(a,a+5);
     set<int> st4(st3);
     printSet(st1,"st1");        // st1 = (6 7 8)
-    cout << "st2: "; copy(st2.begin(),st2.end(),out); cout << endl; // st2 = (7 6 8)
+    cout << "st2: ";
+    copy(st2.begin(),st2.end(),out);
+    cout << endl; // st2 = (7 6 8)
     printSet(st3,"st3");	// st3 = (1 2 3 4 5)
     printSet(st4,"st4");       	// st4 = (1 2 3 4 5)
     pair<set<int>::iterator,bool> pr;
-    pr = st1.insert(7);	
+    pr = st1.insert(7);
     printSet(st1,"st1");        // st1 = (6 7 8), 
     cout << *(pr.first) << ' ' << pr.second  << endl; // pr = (7 false)
     pr = st1.insert(9);	
     printSet(st1,"st1");        // st1 = (6 7 8 9), 
     cout << *(pr.first) << ' ' << pr.second  << endl; // pr = (9 true)
     set<int>::iterator i1 = st1.begin(), i2 = st1.begin();
-    bool b1 = st1.key_comp()(*i1,*i1);		
-    bool b2 = st1.key_comp()(*i1,*++i2);	
+    bool b1 = st1.key_comp()(*i1,*i1);
+    bool b2 = st1.key_comp()(*++i1,*i2);
     bool b3 = st2.key_comp()(*i1,*i1);		
     bool b4 = st2.key_comp()(*i1,*i2);		
     cout << b1 << ' ' << b2 << endl;  // b1 = false // b2 = true
@@ -121,12 +123,12 @@ int main() {
     cout << "pSet2: "; copy(pSet2.begin(),pSet2.end(),out2); cout << endl;// pSet2 = ((Bill,20) (Gregg,25) (Ann,30) (Gregg,35))
     cout << pSet1.count("Gregg") << ' ' << pSet2.count(Person("",35)) << endl; // 1	1
 
-    multiset<Person> pSet3(p,p+5);		     
+    multiset<Person> pSet3(p,p+5);
     multiset<Person,lesserAge> pSet4(p,p+5);
     pair<multiset<Person>::iterator,multiset<Person>::iterator> mprP;
     mprP = pSet3.equal_range("Gregg");
     for (multiset<Person>::iterator i = mprP.first; i != mprP.second; i++)
-       	cout << *i;							                              // (Gregg,25) (Gregg,35) 
+       	cout << *i;							                              // (Gregg,25) (Gregg,35)
     cout << endl;
     cout << "pSet3: "; copy(pSet3.begin(),pSet3.end(),out2); cout << endl;// pSet3 = ((Ann,30) (Bill,20) (Gregg,25) (Gregg,35) (Kay,30))
     cout << "pSet4: "; copy(pSet4.begin(),pSet4.end(),out2); cout << endl;// pSet4 = ((Bill,20) (Gregg,25) (Ann,30) (Kay,30) (Gregg,35))

@@ -169,5 +169,3 @@ void ThreadedTree<T>::postorder() {
 }
 
 #endif
-
-

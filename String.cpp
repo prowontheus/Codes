@@ -67,6 +67,7 @@ int main()
     int i = 0;
     std::cout << "hello world" << std::endl;
     std::cout << "i = " << i << std::endl;
+	task_struct 
     return 0;
 =======
 	return 0;

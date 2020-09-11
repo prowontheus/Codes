@@ -118,4 +118,3 @@ void Statement::getStatement() {
          else issueError("'=' is missing");
     }
 }
-
