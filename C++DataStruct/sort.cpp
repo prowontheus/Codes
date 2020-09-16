@@ -15,7 +15,7 @@ using std::cerr;
 using std::array;
 using std::stack;
 
-const int LENGTHOFARRAY = 21;
+const int LENGTHOFARRAY = 10000;
 
 array<int,21> data1 = {8,11,5,12,18,4,13,7,20,6,10,1,9,6,19,3,8,15,12,14,10};
 array<int,10> data2= {10,1234,9,7234,67,9181,733,197,7,3};
@@ -190,48 +190,29 @@ void swap(T &a,T &b)
 template<typename T>
 void QuickSort(T &data,int first,int last)
 {
-    if(first > last) return;
-    int lower = first+1,upper = last;
-    swap<T>(data[first],data[(first+last)/2]);
-    auto pivot = data[first];
-    while(lower <= upper)
+    if(first + 1 == last)
     {
-        while(/*lower < upper && */data[lower] < pivot)
+        if(data[first] > data[last])
+            swap(data[first],data[last]);
+        return;
+    }
+    int lower = first+1,upper = last;
+    swap(data[first],data[(first+last)/2]);
+    auto pivot = data[first];
+    while(lower < upper)
+    {
+        while(data[lower] < pivot)
             lower++;
-        while(/*lower < upper && */data[upper] > pivot)
+        while(data[upper] > pivot)
             upper--;
         if(lower < upper)
-        {
-            swap<T>(data[lower],data[last]);
-            lower++;
-            upper--;
-        }
-        else lower++;
-    }
-    swap<T>(upper,first);
-    QuickSort(data,first,upper-1);
-    QuickSort(data,upper+1,last);
-}
-
-template<class T>
-void quicksort(T &data, int first, int last) {
-    int lower = first+1, upper = last;
-    swap(data[first],data[(first+last)/2]);
-    auto bound = data[first];
-    while (lower <= upper) {
-        while (data[lower] < bound)
-            lower++;
-        while (bound < data[upper])
-            upper--;
-        if (lower < upper)
             swap(data[lower++],data[upper--]);
-        else lower++;
     }
-    swap(data[upper],data[first]);
-    if (first < upper-1)
-        quicksort (data,first,upper-1);
-    if (upper+1 < last)
-        quicksort (data,upper+1,last);
+    swap(data[first],data[upper]);
+    if(first < upper-1)
+        QuickSort(data,first,upper-1);
+    if(upper+1 < last)
+        QuickSort(data,upper+1,last);
 }
 
 //8.归并排序
@@ -414,7 +395,7 @@ int main()
     clock_t timespan1 = clock();
     clock_t timespan2 = clock();
 
-    //1.插入排序
+////    1.插入排序
 //    arr = data;
 //    cout << "插入排序后：" << endl;
 //    timespan1 = clock();
@@ -423,7 +404,7 @@ int main()
 ////    print<>(arr);
 //    cout << "插入排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //2.选择排序
+////    2.选择排序
 //    arr = data;
 //    cout << "选择排序后：" << endl;
 //    timespan1 = clock();
@@ -432,7 +413,7 @@ int main()
 ////    print<>(arr);
 //    cout << "选择排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //3.冒泡排序
+////    3.冒泡排序
 //    arr = data;
 //    cout << "冒泡排序后：" << endl;
 //    timespan1 = clock();
@@ -441,7 +422,7 @@ int main()
 ////    print<>(arr);
 //    cout << "冒泡排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //4.梳排序
+////    4.梳排序
 //    arr = data;
 //    cout << "梳排序后：" << endl;
 //    timespan1 = clock();
@@ -450,7 +431,7 @@ int main()
 ////    print<>(arr);
 //    cout << "梳排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //5.希尔排序
+////    5.希尔排序
 //    arr = data;
 //    cout << "希尔排序后：" << endl;
 //    timespan1 = clock();
@@ -459,7 +440,7 @@ int main()
 ////    print<>(arr);
 //    cout << "希尔排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //6.堆排序
+////    6.堆排序
 //    arr = data;
 //    cout << "堆排序后：" << endl;
 //    timespan1 = clock();
@@ -468,17 +449,16 @@ int main()
 ////    print<>(arr);
 //    cout << "堆排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-    //7.快速排序
-    arr = data1;
-    cout << "快速排序后：" << endl;
-    timespan1 = clock();
-    quicksort<>(arr,0,arr.size()-1);
-//    quicksort(arr,0,arr.size()-1);
-    timespan2 = clock();
-    print<>(arr);
-    cout << "快速排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
+////    7.快速排序
+//    arr = data;
+//    cout << "快速排序后：" << endl;
+//    timespan1 = clock();
+//    QuickSort<>(arr,0,arr.size()-1);
+//    timespan2 = clock();
+////    print<>(arr);
+//    cout << "快速排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //8.归并排序
+////    8.归并排序
 //    arr = data;
 //    cout << "归并排序后：" << endl;
 //    timespan1 = clock();
@@ -487,7 +467,7 @@ int main()
 ////    print<>(arr);
 //    cout << "归并排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-////    //9.基数排序
+////    9.基数排序
 //    arr = data;
 //    cout << "基数排序后：" << endl;
 //    timespan1 = clock();
@@ -496,13 +476,13 @@ int main()
 ////    print<>(arr);
 //    cout << "基数排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-//    //10.计数排序
+////    10.计数排序
 //    arr = data;
 //    cout << "计数排序后：" << endl;
 //    timespan1 = clock();
 //    CountingSort<>(arr ,arr.size());
 //    timespan2 = clock();
-////    print<>(arr);
+//    print<>(arr);
 //    cout << "计数排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
     return 0;
 }
