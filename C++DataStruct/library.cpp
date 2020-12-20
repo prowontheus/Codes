@@ -120,7 +120,7 @@ ostream& Patron::printPatron(ostream& out) const {
     return out;
 }
 
-template<class T>
+template<typename T>
 ostream& operator<< (ostream& out, const list<T>& lst) {
     for (typename list<T>::const_iterator ref = lst.begin(); ref != lst.end(); ref++)
         out << *ref; // overloaded <<

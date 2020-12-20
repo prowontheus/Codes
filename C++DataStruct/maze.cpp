@@ -4,7 +4,7 @@
 
 using namespace std;
 
-template<class T>
+template<typename T>
 class Stack : public stack<T> {
 public:
     T pop() {

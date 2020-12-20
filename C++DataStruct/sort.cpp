@@ -20,6 +20,16 @@ const int LENGTHOFARRAY = 10000;
 array<int,21> data1 = {8,11,5,12,18,4,13,7,20,6,10,1,9,6,19,3,8,15,12,14,10};
 array<int,10> data2= {10,1234,9,7234,67,9181,733,197,7,3};
 
+
+template<typename T>
+void swap(T &a,T &b)
+{
+    if(a == b) return;
+    auto tmp = a;
+    a = b;
+    b = tmp;
+}
+
 //1.插入排序
 template <typename T>
 void InsertSort(T &data)
@@ -178,15 +188,6 @@ void HeapSort(T &data)
 }
 
 //7.快速排序
-template<typename T>
-void swap(T &a,T &b)
-{
-    if(a == b) return;
-    auto tmp = a;
-    a = b;
-    b = tmp;
-}
-
 template<typename T>
 void QuickSort(T &data,int first,int last)
 {
@@ -413,14 +414,14 @@ int main()
 ////    print<>(arr);
 //    cout << "选择排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
-////    3.冒泡排序
-//    arr = data;
-//    cout << "冒泡排序后：" << endl;
-//    timespan1 = clock();
-//    BubbleSort(arr);
-//    timespan2 = clock();
-////    print<>(arr);
-//    cout << "冒泡排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
+//    3.冒泡排序
+    arr = data;
+    cout << "冒泡排序后：" << endl;
+    timespan1 = clock();
+    BubbleSort(arr);
+    timespan2 = clock();
+    print<>(arr);
+    cout << "冒泡排序耗时:" << (double)(timespan2 - timespan1) << "微秒" << endl;
 //
 ////    4.梳排序
 //    arr = data;

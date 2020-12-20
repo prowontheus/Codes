@@ -7,7 +7,7 @@
 #include <list>
 
 
-template<class T>
+template<typename T>
 class Queue {
 public:
     Queue() { 

@@ -63,13 +63,8 @@ class string
 };
 int main()
 {
-<<<<<<< HEAD
     int i = 0;
     std::cout << "hello world" << std::endl;
     std::cout << "i = " << i << std::endl;
-	task_struct 
     return 0;
-=======
-	return 0;
->>>>>>> eeda10b485559c91bae72d6e9bdc1c091803ce52
 }

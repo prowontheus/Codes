@@ -3,7 +3,7 @@
 
 const int maxLevel = 4;
 
-template<class T>
+template<typename T>
 class SkipListNode {
 public:
     SkipListNode() {
@@ -12,7 +12,7 @@ public:
     SkipListNode **next;
 };
 
-template<class T>
+template<typename T>
 class SkipList {
 public:
     SkipList();
@@ -27,25 +27,25 @@ private:
     int powers[maxLevel];
 };
 
-template<class T>
+template<typename T>
 SkipList<T>::SkipList() {
     for (int i = 0; i < maxLevel; i++)
         root[i] = 0;
 }
 
-template<class T>
+template<typename T>
 bool SkipList<T>::isEmpty() const {
     return root[0] == 0;
 }
 
-template<class T>
+template<typename T>
 void SkipList<T>::choosePowers() {
     powers[maxLevel-1] = (2 << (maxLevel-1)) - 1;  // 2^maxLevel - 1
     for (int i = maxLevel - 2, j = 0; i >= 0; i--, j++)
         powers[i] = powers[i+1] - (2 << j);        // 2^(j+1)
 }
 
-template<class T>
+template<typename T>
 int SkipList<T>::chooseLevel() {
     int i, r = rand() % powers[maxLevel-1] + 1;
     for (i = 1; i < maxLevel; i++)
@@ -54,7 +54,7 @@ int SkipList<T>::chooseLevel() {
     return i-1;         // return the highest level;
 }
 
-template<class T>
+template<typename T>
 T* SkipList<T>::skipListSearch(const T& key) {
     if (isEmpty())
 	return 0;
@@ -86,38 +86,42 @@ T* SkipList<T>::skipListSearch(const T& key) {
     }
 }
 
-template<class T>
-void SkipList<T>::skipListInsert(const T& key) {
+template<typename T>
+void SkipList<T>::skipListInsert(const T& key)
+{
     nodePtr curr[maxLevel], prev[maxLevel], newNode;
     int lvl, i;
-    curr[maxLevel-1] = root[maxLevel-1];
-    prev[maxLevel-1] = 0;
-    for (lvl = maxLevel - 1; lvl >= 0; lvl--) {
-        while (curr[lvl] && curr[lvl]->key < key) {// go to the next
+    curr[maxLevel - 1] = root[maxLevel - 1];
+    prev[maxLevel - 1] = 0;
+    for (lvl = maxLevel - 1; lvl >= 0; lvl--)
+    {
+        while (curr[lvl] && curr[lvl]->key < key)
+        {// go to the next
             prev[lvl] = curr[lvl];                 // if smaller;
             curr[lvl] = *(curr[lvl]->next + lvl);
         }
         if (curr[lvl] && curr[lvl]->key == key)    // don't include
             return;                                // duplicates;
         if (lvl > 0)                               // go one level down
-             if (prev[lvl] == 0) {                  // if not the lowest
-                  curr[lvl-1] = root[lvl-1];       // level, using a link
-                  prev[lvl-1] = 0;                 // either from the root
-             }
-             else {                                // or from the predecessor;
-                  curr[lvl-1] = *(prev[lvl]->next + lvl-1);
-                  prev[lvl-1] = prev[lvl];
-             }
+            if (prev[lvl] == 0)
+            {                  // if not the lowest
+                curr[lvl - 1] = root[lvl - 1];       // level, using a link
+                prev[lvl - 1] = 0;                 // either from the root
+            } else
+            {                                // or from the predecessor;
+                curr[lvl - 1] = *(prev[lvl]->next + lvl - 1);
+                prev[lvl - 1] = prev[lvl];
+            }
     }
     lvl = chooseLevel();        // generate randomly level for newNode;
     newNode = new SkipListNode<T>;
-    newNode->next = new nodePtr[sizeof(nodePtr) * (lvl+1)];
-    newNode->key  = key;
-    for (i = 0; i <= lvl; i++) {        // initialize next fields of
+    newNode->next = new nodePtr[sizeof(nodePtr) * (lvl + 1)];
+    newNode->key = key;
+    for (i = 0; i <= lvl; i++)
+    {        // initialize next fields of
         *(newNode->next + i) = curr[i]; // newNode and reset to newNode
         if (prev[i] == 0)               // either fields of the root
-             root[i] = newNode;         // or next fields of newNode's
+            root[i] = newNode;         // or next fields of newNode's
         else *(prev[i]->next + i) = newNode;    // predecessors;
     }
 }
-

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-template<class T>
+template<typename T>
 void printDeque(const deque<T>& lst, char *s) {
     cout << s << ":  ";
     typename deque<T>::const_iterator i = lst.begin(); 

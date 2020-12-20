@@ -1,7 +1,7 @@
 #ifndef DOUBLY_LINKED_LIST
 #define DOUBLY_LINKED_LIST
 
-template<class T>
+template<typename T>
 class DLLNode {
 public:
     DLLNode() {
@@ -14,7 +14,7 @@ public:
     DLLNode<T> *next, *prev;
 };
 
-template<class T>
+template<typename T>
 class DoublyLinkedList {
 public:
     DoublyLinkedList() {
@@ -45,7 +45,7 @@ protected:
     }
 };
 
-template<class T>
+template<typename T>
 void DoublyLinkedList<T>::addToDLLHead(const T& el) {
     if (head != 0) {
          head = new DLLNode<T>(el,head,0);
@@ -54,7 +54,7 @@ void DoublyLinkedList<T>::addToDLLHead(const T& el) {
     else head = tail = new DLLNode<T>(el);
 }
 
-template<class T>
+template<typename T>
 void DoublyLinkedList<T>::addToDLLTail(const T& el) {
     if (tail != 0) {
          tail = new DLLNode<T>(el,0,tail);
@@ -63,7 +63,7 @@ void DoublyLinkedList<T>::addToDLLTail(const T& el) {
     else head = tail = new DLLNode<T>(el);
 }
 
-template<class T>
+template<typename T>
 T DoublyLinkedList<T>::deleteFromDLLHead() {
     T el = head->info;
     if (head == tail) { // if only one DLLNode on the list;
@@ -78,7 +78,7 @@ T DoublyLinkedList<T>::deleteFromDLLHead() {
     return el;
 }
 
-template<class T>
+template<typename T>
 T DoublyLinkedList<T>::deleteFromDLLTail() {
     T el = tail->info;
     if (head == tail) { // if only one DLLNode on the list;
@@ -93,7 +93,7 @@ T DoublyLinkedList<T>::deleteFromDLLTail() {
     return el;
 }
 
-template <class T>
+template <typename T>
 T* DoublyLinkedList<T>::find(const T& el) const {
     DLLNode<T> *tmp = head;
     for ( ; tmp != 0 && !(tmp->info == el);  // overloaded ==
@@ -103,12 +103,12 @@ T* DoublyLinkedList<T>::find(const T& el) const {
     else return &tmp->info;
 }
 
-template<class T>
+template<typename T>
 T& DoublyLinkedList<T>::firstEl() {
     return head->info;
 }
 
-template<class T>
+template<typename T>
 void DoublyLinkedList<T>::clear() {
     for (DLLNode<T> *tmp; head != 0; ) {
         tmp = head;

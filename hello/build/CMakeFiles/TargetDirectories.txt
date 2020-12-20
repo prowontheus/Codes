@@ -1,3 +1,0 @@
-/home/narada/Codes/hello/build/CMakeFiles/edit_cache.dir
-/home/narada/Codes/hello/build/CMakeFiles/rebuild_cache.dir
-/home/narada/Codes/hello/build/CMakeFiles/main.dir

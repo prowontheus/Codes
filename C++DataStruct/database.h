@@ -1,7 +1,7 @@
 #ifndef DATABASE
 #define DATABASE
 
-template<class T>
+template<typename T>
 class Database {
 public:
     Database();

@@ -30,7 +30,7 @@ bool f1(int n) {
     return n < 5;
 }
 
-template<class T>
+template<typename T>
 void printVector(char *s, const vector<T>& v) {
     cout << s << " = (";
     if (v.size() == 0) {

@@ -3,12 +3,12 @@
 //               overloading of < and = required
 
 //conflict with <algorithms>, <queue>
-//template<class T>
+//template<typename T>
 //inline void swap (T& e1, T& e2) {
 //    T tmp = e1; e1 = e2; e2 = tmp;
 //}
 
-template<class T>
+template<typename T>
 void insertionsort(T data[], const int n) {
     for (int i = 1, j; i < n; i++) {
         T tmp = data[i];
@@ -18,7 +18,7 @@ void insertionsort(T data[], const int n) {
     }
 }
 
-template<class T>
+template<typename T>
 void selectionsort(T data[], const int n) {
     for (int i = 0, least, j; i < n-1; i++) {
         for (j = i+1, least = i; j < n; j++)
@@ -28,7 +28,7 @@ void selectionsort(T data[], const int n) {
     }
 }
 
-template<class T>
+template<typename T>
 void bubblesort(T data[], const int n) {
     for (int i = 0; i < n-1; i++)
         for (int j = n-1; j > i; --j)
@@ -36,7 +36,7 @@ void bubblesort(T data[], const int n) {
                 swap(data[j],data[j-1]);
 }
 
-template <class T>
+template <typename T>
 void combsort(T data[], const int n) {
     int step = n, j, k;
     while ((step = int(step/1.3)) > 1)        // phase 1
@@ -54,7 +54,7 @@ void combsort(T data[], const int n) {
             }
 }
 
-template<class T>
+template<typename T>
 void Shellsort(T data[], const int n) {
     register int i, j, hCnt, h;
     int increments[20], k;
@@ -83,7 +83,7 @@ void Shellsort(T data[], const int n) {
     }
 }
 
-template<class T>
+template<typename T>
 void moveDown (T data[], int first, int last) {
     int largest = 2*first + 1;
     while (largest <= last) {
@@ -100,7 +100,7 @@ void moveDown (T data[], int first, int last) {
     }                           // isn't violated by data[first];
 }
 
-template<class T>
+template<typename T>
 void heapsort(T data[], const int n) {
     int i;
     for (i = n/2 - 1; i >= 0; --i) // create the heap;
@@ -111,7 +111,7 @@ void heapsort(T data[], const int n) {
     }
 }
 
-template<class T>
+template<typename T>
 void quicksort(T data[], int first, int last) {
     int lower = first+1, upper = last;
     swap(data[first],data[(first+last)/2]);
@@ -132,7 +132,7 @@ void quicksort(T data[], int first, int last) {
         quicksort (data,upper+1,last);
 }
 
-template<class T>
+template<typename T>
 void quicksort(T data[], const int n) {
     int i, max;
     if (n < 2)
@@ -144,7 +144,7 @@ void quicksort(T data[], const int n) {
     quicksort(data,0,n-2);     // final position;
 }
 
-template<class T>
+template<typename T>
 void insertionsort(T data[], int first, int last) {
     for (int i = first, j; i <= last; i++) {
         T tmp = data[i];
@@ -154,7 +154,7 @@ void insertionsort(T data[], int first, int last) {
     }
 }
 
-template<class T>
+template<typename T>
 void quicksort2(T data[], int first, int last) {
     if (last - first < 30)
          insertionsort(data,first,last);
@@ -179,7 +179,7 @@ void quicksort2(T data[], int first, int last) {
     }
 }
 
-template<class T>
+template<typename T>
 void quicksort2(T data[], const int n) {
     int i, max;
     if (n < 2)
@@ -191,7 +191,7 @@ void quicksort2(T data[], const int n) {
     quicksort2(data,0,n-2);     // final position;
 }
 
-template<class T>
+template<typename T>
 void merge(T array1[], T temp[], int first, int last) {
     int mid = (first + last) / 2;
     int i1 = 0, i2 = first, i3 = mid + 1;
@@ -206,7 +206,7 @@ void merge(T array1[], T temp[], int first, int last) {
     for (i1 = 0, i2 = first; i2 <= last; array1[i2++] = temp[i1++]);
 }
 
-template<class T>
+template<typename T>
 void mergesort(T data[], T temp[], int first, int last) {
     if (first < last) {
         int mid = (first + last) / 2;
@@ -216,7 +216,7 @@ void mergesort(T data[], T temp[], int first, int last) {
     }
 }
 
-template<class T>
+template<typename T>
 void mergesort(T data[], const int n) {
     T *temp = new T[n];
     mergesort(data,temp,0,n-1);
@@ -224,7 +224,7 @@ void mergesort(T data[], const int n) {
 
 #include <queue>
 
-template<class T>
+template<typename T>
 class Queue : public std::queue<T> {
 public:
     T dequeue() {
@@ -241,7 +241,7 @@ const int bits = 31;
 const int radix = 10;
 const int digits = 10;
 
-template<class T>
+template<typename T>
 void radixsort(T data[], const int n) {
     register int d, j, k, factor;
     Queue<T> queues[radix];
@@ -278,7 +278,7 @@ int inline isEmpty(long q) {
     return q == -1;
 }
 
-template<class T>
+template<typename T>
 class RadixSortNode {
 public:
     T *arr;

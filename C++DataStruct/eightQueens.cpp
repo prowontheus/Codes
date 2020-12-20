@@ -56,7 +56,7 @@ void eightQueens::printSolution()
             if(j == column[i])
                 std::cout << "👑";
             else
-                std::cout << "〇";
+                std::cout << "0⃣️";
         }
         std::cout << std::endl;
     }

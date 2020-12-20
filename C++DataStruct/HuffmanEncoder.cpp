@@ -1,9 +1,3 @@
-#include <iostream>
-#include <fstream>
-#include <cstring>
-
-using namespace std;
-
 #include "HuffmanCoding.h"
 
 int main(int argc, char* argv[]) {

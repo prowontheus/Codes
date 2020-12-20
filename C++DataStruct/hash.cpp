@@ -4,6 +4,7 @@
 #include <cctype>
 #include <iomanip>
 #include <cstdio> // remove(), rename();
+#include <unordered_map>
 
 using namespace std;
 
@@ -53,6 +54,10 @@ unsigned long File::hash(char *s) {
     return (Xor % tableSize) * bucketSize * recordLen;
 }// return byte position of home bucket for s;
 
+/***
+ * 将输入的名字长度限制在recordlen以内
+ * @param line
+ */
 void File::getName(char line[]) {
     cout << "Enter a name: ";
     cin.getline(line,recordLen+1);
@@ -146,7 +151,7 @@ void File::excise(char line[]) {
 
 void File::partition (int low, int high, int& pivotLoc) {
     char rec[recordLen+1], pivot[recordLen+1];
-    register int i, lastSmall;
+    int i, lastSmall;
     swap(pointers[low],pointers[(low+high)/2]);
     outfile.clear();
     outfile.seekg(pointers[low]*recordLen,ios::beg);
@@ -251,7 +256,8 @@ void File::processFile(char *fileName) {
 
 int main(int argc, char* argv[]) {
     char fileName[80];
-    if (argc != 2) {
+    if (argc != 2)
+    {
          cout << "Enter a file name: ";
          cin.getline(fileName,80);
     }

@@ -3,7 +3,7 @@
 #ifndef ARRAY_QUEUE
 #define ARRAY_QUEUE
 
-template<class T, int size = 100>
+template<typename T, int size = 100>
 class ArrayQueue {
 public:
     ArrayQueue() { 
@@ -22,7 +22,7 @@ private:
     T storage[size];
 };
 
-template<class T, int size>
+template<typename T, int size>
 void ArrayQueue<T,size>::enqueue(T el) {
    if (!isFull())
         if (last == size-1 || last == -1) {
@@ -35,7 +35,7 @@ void ArrayQueue<T,size>::enqueue(T el) {
    else cout << "Full queue.\n";
 }
 
-template<class T, int size>
+template<typename T, int size>
 T ArrayQueue<T,size>::dequeue() {   
 	T tmp;
     tmp = storage[first];

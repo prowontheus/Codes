@@ -6,7 +6,7 @@
 
 #include <vector>
 
-template<class T, int capacity = 30>
+template<typename T, int capacity = 30>
 class Stack {
 public:
     Stack() {

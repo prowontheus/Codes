@@ -2,11 +2,11 @@
 #include "student.h"
 #include "database.h"
 
-template<class T>
+template<typename T>
 Database<T>::Database() {
 }
 
-template<class T>
+template<typename T>
 void Database<T>::add(T& d) {
     database.open(fName,ios::in|ios::out|ios::binary);
     database.clear();
@@ -15,7 +15,7 @@ void Database<T>::add(T& d) {
     database.close();
 }
 
-template<class T>
+template<typename T>
 void Database<T>::modify(const T& d) {
     T tmp;
     database.open(fName,ios::in|ios::out|ios::binary);
@@ -34,7 +34,7 @@ void Database<T>::modify(const T& d) {
     cout << "The record to be modified is not in the database\n";
 }
 
-template<class T>
+template<typename T>
 bool Database<T>::find(const T& d) {
     T tmp;
     database.open(fName,ios::in|ios::binary);
@@ -50,7 +50,7 @@ bool Database<T>::find(const T& d) {
     return false;
 }
 
-template<class T>
+template<typename T>
 ostream& Database<T>::print(ostream& out) {
     T tmp;
     database.open(fName,ios::in|ios::binary);
@@ -65,7 +65,7 @@ ostream& Database<T>::print(ostream& out) {
     return out;
 }
 
-template<class T>
+template<typename T>
 void Database<T>::run() {
     cout << "File name: ";
     cin >> fName;

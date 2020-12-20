@@ -4,7 +4,7 @@
 #ifndef THREADED_TREE
 #define THREADED_TREE
 
-template<class T>
+template<typename T>
 class ThreadedNode {
 public:
     ThreadedNode() { 
@@ -18,7 +18,7 @@ public:
     unsigned int successor : 1;
 };
 
-template<class T>
+template<typename T>
 class ThreadedTree {
 public:
     ThreadedTree()  {
@@ -42,7 +42,7 @@ protected:
     void clear(ThreadedNode<T>*);
 };
 
-template<class T>
+template<typename T>
 void ThreadedTree<T>::clear(ThreadedNode<T>*p)
 {
     if (p != 0) {
@@ -53,7 +53,7 @@ void ThreadedTree<T>::clear(ThreadedNode<T>*p)
      }
 }
 
-template<class T>
+template<typename T>
 void ThreadedTree<T>::insert(const T& el) {
     ThreadedNode<T> *p, *prev = 0, *newNode;
     newNode = new ThreadedNode<T>(el);
@@ -84,7 +84,7 @@ void ThreadedTree<T>::insert(const T& el) {
      else prev->right = newNode;  // otherwise it has no successor;
 }
 
-template<class T>
+template<typename T>
 void ThreadedTree<T>::inorder() {
     ThreadedNode<T> *prev, *p = root;
     if (p != 0) {                 // process only non-empty trees;
@@ -101,7 +101,7 @@ void ThreadedTree<T>::inorder() {
     }
 }
 
-template<class T>
+template<typename T>
 void ThreadedTree<T>::preorder() {
     ThreadedNode<T> *p = root;
 	while (p != 0) {              // process only non-empty trees;
@@ -118,7 +118,7 @@ void ThreadedTree<T>::preorder() {
     }
 }
 
-template<class T>
+template<typename T>
 void ThreadedTree<T>::postorder() {
     ThreadedNode<T> *q, *r, *s, *p = new ThreadedNode<T>, *rightmost, *dummy = p;
     p->left = root;

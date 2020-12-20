@@ -6,7 +6,7 @@
 
 using namespace std;
 
-template<class T>
+template<typename T>
 void printList(const list<T>& lst, char *s) {
     cout << s << ":  ";
     for (typename list<T>::const_iterator i = lst.begin(); i != lst.end(); i++)

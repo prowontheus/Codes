@@ -47,7 +47,7 @@ void printMSet(const multiset<int>& s, char *c) {
     cout << endl;
 }
 
-template<class T>
+template<typename T>
 void Union(const set<T>& st1, const set<T>& st2, set<T>& st3) {
     set<T> tmp(st2);
     if (&st1 != &st2)

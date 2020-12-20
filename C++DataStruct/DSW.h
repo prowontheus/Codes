@@ -15,7 +15,7 @@
 using namespace std;
 
 //栈实现
-template<class T>
+template<typename T>
 class Stack : public stack<T> {
 public:
     T pop() {
@@ -26,7 +26,7 @@ public:
 };
 
 //队列实现
-template<class T>
+template<typename T>
 class Queue : public queue<T> {
 public:
     T dequeue() {
@@ -40,7 +40,7 @@ public:
 };
 
 //树节点类
-template<class T>
+template<typename T>
 class Node {
 public:
     Node():left(NULL),right(NULL){}
@@ -52,7 +52,7 @@ public:
 };
 
 //二叉查找树的实现类
-template<class T>
+template<typename T>
 class BST {
 public:
     BST():root(NULL),count(0){}
@@ -83,7 +83,7 @@ protected:
 };
 
 //根据数组中的内容构造树
-template<class T>
+template<typename T>
 BST<T>::BST(T* a, int len) {
     root = NULL;
     count = 0;
@@ -93,7 +93,7 @@ BST<T>::BST(T* a, int len) {
 }
 
 //清除节点p及其子节点
-template<class T>
+template<typename T>
 void BST<T>::clear(Node<T> *p) {
     if (p != NULL) {
         clear(p->left);
@@ -105,7 +105,7 @@ void BST<T>::clear(Node<T> *p) {
 }
 
 //插入，非递归形式
-template<class T>
+template<typename T>
 void BST<T>::insert(const T& el) {
     Node<T> *p = root, *prev = NULL;
     while (p != NULL) {  // find a place for inserting new node;
@@ -124,7 +124,7 @@ void BST<T>::insert(const T& el) {
 }
 
 //广度优先遍历（从上到下，从左到右，一层一层的向下访问）
-template<class T>
+template<typename T>
 void BST<T>::breadthFirst() {
     Queue<Node<T>*> m_queue;	//要理解这里为什么要用队列，这个队列的作用是把下一层的数据放到本层数据的后面
     Node<T>* p = root;
@@ -142,7 +142,7 @@ void BST<T>::breadthFirst() {
 }
 
 //中序遍历，递归实现
-template<class T>
+template<typename T>
 void BST<T>::inorder(Node<T> *p) {
     if (p != NULL) {
         inorder(p->left);
@@ -151,7 +151,7 @@ void BST<T>::inorder(Node<T> *p) {
     }
 }
 
-template<class T>
+template<typename T>
 class DswBST: public BST<T> {
 public:
     DswBST(T* a, int len);    //根据数组中的数据构造树，调试测试用
@@ -163,14 +163,14 @@ protected:
     void rotateLeft(Node<T>* Gr, Node<T>* Par, Node<T>* Ch);
 };
 
-template<class T>
+template<typename T>
 DswBST<T>::DswBST(T* a, int len) {
     for (int i = 0; i < len; i++) {
         this->insert(a[i]);
     }
 }
 
-template<class T>
+template<typename T>
 void DswBST<T>::dswBalance() {
     createBackbone();
     creatPerfectTree();
@@ -196,7 +196,7 @@ void DswBST<T>::dswBalance() {
 *                                                                                \
 *                                                                                 40 <-tmp
 ***********************************************************************************************/
-template<class T>
+template<typename T>
 void DswBST<T>::createBackbone() {
     Node<T> *Gr = 0, *Par = this->root, *Ch = 0;
     while(Par != 0) {
@@ -225,7 +225,7 @@ void DswBST<T>::createBackbone() {
  *  /  \            /  \
  * X    Y          Y    Z
  ***********************************************************************/
-template<class T>
+template<typename T>
 void DswBST<T>::rotateRight(Node<T>* Gr, Node<T>* Par, Node<T>* Ch) {
     if(Gr != 0)
         Gr->right = Ch;
@@ -233,7 +233,7 @@ void DswBST<T>::rotateRight(Node<T>* Gr, Node<T>* Par, Node<T>* Ch) {
     Ch->right = Par;
 }
 
-template<class T>
+template<typename T>
 void DswBST<T>::rotateLeft(Node<T>* Gr, Node<T>* Par, Node<T>* Ch) {
     if(Gr != 0)
         Gr->right = Ch;
@@ -241,7 +241,7 @@ void DswBST<T>::rotateLeft(Node<T>* Gr, Node<T>* Par, Node<T>* Ch) {
     Ch->left = Par;
 }
 
-template<class T>
+template<typename T>
 void DswBST<T>::creatPerfectTree() {
     int n = this->count;
     if (n < 3) {

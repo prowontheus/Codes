@@ -6,7 +6,7 @@
 
 #include <list>
 
-template<class T>
+template<typename T>
 class LLStack {
 public:
     LLStack() { 

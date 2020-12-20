@@ -1,5 +1,10 @@
+#include <iostream>
+#include <fstream>
+#include <cstring>
 #include <vector>
 #include <algorithm>
+
+using namespace std;
 
 class HuffmanNode {
 public:

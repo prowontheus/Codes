@@ -5,7 +5,7 @@
 
 using namespace std;
 
-template<class T>
+template<typename T>
 void printVector(char *s, const vector<T>& v) {
     cout << s << " = (";
     if (v.size() == 0) {

@@ -7,7 +7,7 @@
 #ifndef BINARY_SEARCH_TREE
 #define BINARY_SEARCH_TREE
 
-template<class T>
+template<typename T>
 class Stack : public stack<T> {
 public:
     T pop() {
@@ -17,7 +17,7 @@ public:
     }
 };
 
-template<class T>
+template<typename T>
 class Queue : public queue<T> {
 public:
     T dequeue() {
@@ -29,9 +29,9 @@ public:
         push(el);
     }
 };
-template<class T> class BST;
+template<typename T> class BST;
 
-template<class T>
+template<typename T>
 class BSTNode {
 public:
     BSTNode() {
@@ -44,7 +44,7 @@ public:
     BSTNode<T> *left, *right;
 };
 
-template<class T>
+template<typename T>
 class BST {
 public:
     BST() {
@@ -105,7 +105,7 @@ protected:
     }
 };
 
-template<class T>
+template<typename T>
 void BST<T>::clear(BSTNode<T> *p) {
     if (p != 0) {
         clear(p->left);
@@ -114,7 +114,7 @@ void BST<T>::clear(BSTNode<T> *p) {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::insert(const T& el) {
     BSTNode<T> *p = root, *prev = 0;
     while (p != 0) {  // find a place for inserting new node;
@@ -130,7 +130,7 @@ void BST<T>::insert(const T& el) {
     else prev->right = new BSTNode<T>(el);
 }
 
-template<class T>
+template<typename T>
 void BST<T>::recursiveInsert(BSTNode<T>*& p, const T& el) {
     if (p == 0)
         p = new BSTNode<T>(el);
@@ -139,7 +139,7 @@ void BST<T>::recursiveInsert(BSTNode<T>*& p, const T& el) {
     else recursiveInsert(p->right,el);
 }
 
-template<class T>
+template<typename T>
 T* BST<T>::search(BSTNode<T>* p, const T& el) const {
     while (p != 0)
         if (el == p->el)
@@ -150,7 +150,7 @@ T* BST<T>::search(BSTNode<T>* p, const T& el) const {
     return 0;
 }
 
-template<class T>
+template<typename T>
 T* BST<T>::recursiveSearch(BSTNode<T>* p, const T& el) const {
     if (p != 0)
         if (el == p->el)
@@ -161,7 +161,7 @@ T* BST<T>::recursiveSearch(BSTNode<T>* p, const T& el) const {
     else return 0;
 }
 
-template<class T>
+template<typename T>
 void BST<T>::inorder(BSTNode<T> *p) {
     if (p != 0) {
         inorder(p->left);
@@ -170,7 +170,7 @@ void BST<T>::inorder(BSTNode<T> *p) {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::preorder(BSTNode<T> *p) {
     if (p != 0) {
         visit(p);
@@ -179,7 +179,7 @@ void BST<T>::preorder(BSTNode<T> *p) {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::postorder(BSTNode<T>* p) {
     if (p != 0) {
         postorder(p->left);
@@ -188,7 +188,7 @@ void BST<T>::postorder(BSTNode<T>* p) {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::deleteByCopying(BSTNode<T>*& node) {
     BSTNode<T> *previous, *tmp = node;
     if (node->right == 0)                  // node has no right child;
@@ -213,7 +213,7 @@ void BST<T>::deleteByCopying(BSTNode<T>*& node) {
 // findAndDeleteByCopying() searches the tree to locate the node containing
 // el. If the node is located, the function DeleteByCopying() is called.
 
-template<class T>
+template<typename T>
 void BST<T>::findAndDeleteByCopying(const T& el) {
     BSTNode<T> *p = root, *prev = 0;
     while (p != 0 && !(p->el == el)) {
@@ -233,7 +233,7 @@ void BST<T>::findAndDeleteByCopying(const T& el) {
     else cout << "the tree is empty\n";
 }
 
-template<class T>
+template<typename T>
 void BST<T>::deleteByMerging(BSTNode<T>*& node) {
     BSTNode<T> *tmp = node;
     if (node != 0) {
@@ -255,7 +255,7 @@ void BST<T>::deleteByMerging(BSTNode<T>*& node) {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::findAndDeleteByMerging(const T& el) {
     BSTNode<T> *node = root, *prev = 0;
     while (node != 0) {
@@ -277,7 +277,7 @@ void BST<T>::findAndDeleteByMerging(const T& el) {
     else cout << "the tree is empty\n";
 }
 
-template<class T>
+template<typename T>
 void BST<T>::iterativePreorder() {
     Stack<BSTNode<T>*> travStack;
     BSTNode<T> *p = root;
@@ -294,7 +294,7 @@ void BST<T>::iterativePreorder() {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::iterativeInorder() {
     Stack<BSTNode<T>*> travStack;
     BSTNode<T> *p = root;
@@ -317,7 +317,7 @@ void BST<T>::iterativeInorder() {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::iterativePostorder() {
     Stack<BSTNode<T>*> travStack;
     BSTNode<T>* p = root, *q = root;
@@ -336,7 +336,7 @@ void BST<T>::iterativePostorder() {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::breadthFirst() {
     Queue<BSTNode<T>*> queue;
     BSTNode<T> *p = root;
@@ -353,7 +353,7 @@ void BST<T>::breadthFirst() {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::MorrisInorder() {
     BSTNode<T> *p = root, *tmp;
     while (p != 0)
@@ -378,7 +378,7 @@ void BST<T>::MorrisInorder() {
         }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::MorrisPreorder() {
     BSTNode<T> *p = root, *tmp;
     while (p != 0) {
@@ -404,7 +404,7 @@ void BST<T>::MorrisPreorder() {
     }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::MorrisPostorder() {
     BSTNode<T> *p = new BSTNode<T>(), *tmp, *q, *r, *s;
     p->left = root;
@@ -440,7 +440,7 @@ void BST<T>::MorrisPostorder() {
         }
 }
 
-template<class T>
+template<typename T>
 void BST<T>::balance (T data[], int first, int last) {
     if (first <= last) {
         int middle = (first + last)/2;

@@ -6,9 +6,9 @@
 
 #include <iostream>
 
-template<class T> class SplayTree;
+template<typename T> class SplayTree;
 
-template<class T>
+template<typename T>
 class SplayingNode {
 public:
     SplayingNode() {
@@ -22,7 +22,7 @@ public:
     SplayingNode *left, *right, *parent;
 };
 
-template<class T>
+template<typename T>
 class SplayTree {
 public:
     SplayTree() {
@@ -46,7 +46,7 @@ protected:
 };
 
 
-template<class T>
+template<typename T>
 void SplayTree<T>::continueRotation(SplayingNode<T>* gr, SplayingNode<T>* par,
                                     SplayingNode<T>* ch, SplayingNode<T>* desc) {
     if (gr != 0) { // if p has a grandparent;
@@ -61,21 +61,21 @@ void SplayTree<T>::continueRotation(SplayingNode<T>* gr, SplayingNode<T>* par,
     ch->parent = gr;
 }
 
-template<class T>
+template<typename T>
 void SplayTree<T>::rotateR(SplayingNode<T>* p) {
     p->parent->left = p->right;
     p->right = p->parent;
     continueRotation(p->parent->parent,p->right,p,p->right->left);
 }
 
-template<class T>
+template<typename T>
 void SplayTree<T>::rotateL(SplayingNode<T>* p) {
     p->parent->right = p->left;
     p->left = p->parent;
     continueRotation(p->parent->parent,p->left,p,p->left->right);
 }
 
-template<class T>
+template<typename T>
 void SplayTree<T>::semisplay(SplayingNode<T>* p) {
     while (p != root) {
         if (p->parent->parent == 0)    // if p's parent is the root;
@@ -114,7 +114,7 @@ void SplayTree<T>::semisplay(SplayingNode<T>* p) {
     }
 }
 
-template<class T>
+template<typename T>
 T* SplayTree<T>::search(const T& el)
 {
     SplayingNode<T> *p = root;
@@ -133,7 +133,7 @@ T* SplayTree<T>::search(const T& el)
     return 0;
 }
 
-template<class T>
+template<typename T>
 void SplayTree<T>::insert(const T& el) {
     SplayingNode<T> *p = root, *prev = 0, *newNode;
     while (p != 0) {  // find a place for inserting a new node;
@@ -153,7 +153,7 @@ void SplayTree<T>::insert(const T& el) {
     else prev->right = newNode;
 }
 
-template<class T>
+template<typename T>
 void SplayTree<T>::inorder(SplayingNode<T> *p) {
      if (p != 0) {
          inorder(p->left);
