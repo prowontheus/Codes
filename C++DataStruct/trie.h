@@ -1,4 +1,7 @@
 //************************  trie.h  *********************************
+#include <iostream>
+#include <cstring>
+#include <cstdlib>
 
 class Trie;
 

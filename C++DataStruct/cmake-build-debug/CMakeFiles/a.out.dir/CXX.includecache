@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jerry/Codes/C++DataStruct/hash.cpp
+iostream
+-
+fstream
+-
+cstring
+-
+cctype
+-
+iomanip
+-
+cstdio
+-
+unordered_map
+-
+

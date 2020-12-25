@@ -9,6 +9,7 @@ public:
     virtual int compute(int x, int y) const 
     {
         std::cout << "ComputeFunc::compute" << std::endl;
+		return -1;
     }
 };
 

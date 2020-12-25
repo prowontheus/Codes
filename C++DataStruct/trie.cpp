@@ -1,8 +1,4 @@
 //************************  trie.cpp  *********************************
-
-#include <iostream>
-#include <cstring>
-#include <cstdlib>
 #include "trie.h"
 
 using namespace std;

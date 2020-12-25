@@ -4,6 +4,9 @@
 #include <queue>
 #include <stack>
 
+using std::queue;
+using std::stack;
+
 #ifndef BINARY_SEARCH_TREE
 #define BINARY_SEARCH_TREE
 
